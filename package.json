@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^3.2.1",
+    "@nuxt/content": "npm:@nuxt/content-edge@latest",
+    "@nuxtjs/color-mode": "^3.0.3",
+    "@nuxtjs/tailwindcss": "^5.0.4",
+    "@tailwindcss/typography": "^0.5.2",
+    "nuxt": "^3.0.0-rc.3"
+  }
+}
