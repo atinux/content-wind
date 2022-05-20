@@ -5,7 +5,8 @@ const { data: navigation } = await useAsyncData('navigation', () => fetchContent
 <template>
   <div class="sm:py-10">
     <Html lang="en" />
-    <Meta property="og:image" content="https://avatars.githubusercontent.com/u/904724?v=4" />
+    <Meta property="og:image" content="/cover.jpg" />
+    <Meta name="twitter:card" content="summary_large_image" />
     <!-- Navbar -->
     <div class="flex justify-between max-w-2xl mx-auto px-4 sm:px-6 py-4">
       <div class="text-gray-700 dark:text-gray-200">
