@@ -10,8 +10,8 @@
     </div>
     <!-- Social icons & Color Mode -->
     <div class="space-x-3 text-gray-500 transition">
-      <a href="https://twitter.com/Atinux" name="Twitter" class="hover:text-gray-700 dark:hover:text-gray-300"><Icon name="fa-brands:twitter" /></a>
-      <a href="https://github.com/Atinux/content-wind" name="GitHub" class="hover:text-gray-700 dark:hover:text-gray-300"><Icon name="fa-brands:github" /></a>
+      <a href="https://twitter.com/Atinux" title="Twitter" class="hover:text-gray-700 dark:hover:text-gray-300"><Icon name="fa-brands:twitter" /></a>
+      <a href="https://github.com/Atinux/content-wind" title="GitHub" class="hover:text-gray-700 dark:hover:text-gray-300"><Icon name="fa-brands:github" /></a>
       <ColorModeSwitch class="hover:text-gray-700 dark:hover:text-gray-300" />
     </div>
   </div>
