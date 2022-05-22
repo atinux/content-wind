@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import type { Ref } from 'vue'
 import type { IconifyIcon } from '@iconify/vue'
-import { Icon as Iconify } from '@iconify/vue/dist/offline'
-import { loadIcon } from '@iconify/vue'
+import { Icon as Iconify, loadIcon } from '@iconify/vue'
 
 const nuxtApp = useNuxtApp()
 const props = defineProps({

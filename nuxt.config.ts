@@ -17,8 +17,8 @@ export default defineNuxtConfig({
       fields: ['navTitle']
     },
     highlight: {
-      theme: 'dracula',
-      preload: ['html', 'typescript']
+      // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
+      theme: 'dracula'
     }
   }
 })
