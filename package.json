@@ -12,7 +12,7 @@
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxtjs/color-mode": "^3.0.3",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
-    "@nuxtjs/tailwindcss": "^5.0.4",
+    "@nuxtjs/tailwindcss": "^5.1.2",
     "@tailwindcss/typography": "^0.5.2",
     "eslint": "^8.16.0",
     "nuxt": "^3.0.0-rc.3",

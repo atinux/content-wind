@@ -21,9 +21,4 @@
     @apply border-b border-neutral-600 dark:border-neutral-300;
   }
 }
-/* Wait for fix in Nuxt Content */
-pre code .line {
-  display: block;
-  min-height: 1em;
-}
 </style>
