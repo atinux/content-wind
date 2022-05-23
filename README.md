@@ -11,7 +11,7 @@ A lightweight Nuxt template to write a Markdown driven website, based on [Nuxt C
 - Light & Dark mode ready :moon:
 - Navigation generation based on your pages
 - `<Icon>` component for easy icon usage, 100,000 icons from 100+ icon sets
-- Code highlighting with [Shiki](https://shiki.github.io/shiki/)
+- Code highlighting with [Shiki](https://shiki.matsu.io/)
 - Create Vue components and use them in your Markdown
 - Deploy on any Node or Static hosting: GH Pages, Vercel, Netlify, Heroku, etc.
 
