@@ -1,1 +1,0 @@
-> I am a partial content, you can include me in any page using the `:content-doc` component in Markdown.
