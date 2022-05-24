@@ -3,7 +3,13 @@
     <!-- Navigation -->
     <div class="text-gray-700 dark:text-gray-200">
       <ContentNavigation v-slot="{ navigation }">
-        <NuxtLink v-for="link of navigation" :key="link._path" :to="link._path" active-class="font-bold" class="mr-4">
+        <NuxtLink
+          v-for="link of navigation"
+          :key="link._path"
+          :to="link._path"
+          active-class="font-bold"
+          class="mr-4"
+        >
           {{ link.navTitle || link.title }}
         </NuxtLink>
       </ContentNavigation>
