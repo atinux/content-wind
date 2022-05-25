@@ -415,10 +415,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt/content@npm:@nuxt/content-edge@latest":
-  version "2.0.0-27556335.6403e35"
-  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.0.0-27556335.6403e35.tgz#314da34f4ec50dae62a03c5e97f1826db414d16f"
-  integrity sha512-M6NE46ij44CyoQiLYsunTNNmDPHTkLJ+M9O+/ocbhCckOB2scXCbYpmt+uUWJRzPA0IYaIUYhF37kx0FDrpWKA==
+"@nuxt/content@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.0.0.tgz#f93f3ee10777fdf2d6c0531c4461604e02be4b98"
+  integrity sha512-HOy3YpIJGPi2b/bXuqwVTIrVPwcjc7TNRU2FVQmrnSpR1F7iGUj257pAbmVw9fDeqNbjeVv2quwntUJlmWb5kw==
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.3"
     csvtojson "^2.0.10"
@@ -6865,10 +6865,10 @@ type-is@^1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@^4.6.4:
-  version "4.6.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
-  integrity sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==
+typescript@^4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.2.tgz#1f9aa2ceb9af87cca227813b4310fff0b51593c4"
+  integrity sha512-Mamb1iX2FDUpcTRzltPxgWMKy3fhg0TN378ylbktPGPK/99KbDtMQ4W1hwgsbPAsG3a0xKa1vmw4VKZQbkvz5A==
 
 ufo@^0.8.3, ufo@^0.8.4:
   version "0.8.4"
