@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@iconify/vue": "^3.2.1",
-    "@nuxt/content": "^2.0.0",
+    "@nuxt/content": "^2.0.1",
     "@nuxtjs/color-mode": "^3.0.3",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/tailwindcss": "^5.1.2",
