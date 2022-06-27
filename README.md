@@ -9,8 +9,10 @@ A lightweight Nuxt template to write a Markdown driven website, based on [Nuxt C
 
 ## Features
 
-- Create pages in Markdown in the `content/` directory
-- Enjoy meta tag generation from Markdown files
+- [Document-Driven Mode](https://content.nuxtjs.org/guide/writing/document-driven)
+  - Create pages in Markdown in the `content/` directory
+  - Use Nuxt layouts in your Markdown pages
+  - Enjoy meta tag generation from Markdown files
 - Switch between Light & Dark mode :moon:
 - Generated navigation based on your pages
 - Access 100,000 icons from 100+ icon sets with the `<Icon>` component
