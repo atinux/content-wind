@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const { themeTokens } = require('./.nuxt/theme/tokens')
 
 module.exports = {
   darkMode: 'class',
@@ -10,7 +10,13 @@ module.exports = {
     extend: {
       colors: {
         // Customize the feeling of your site
-        gray: colors.stone
+        gray: Object.entries(themeTokens.colors.gray).reduce(
+          (acc, [key, value]) => {
+            acc[key] = value.variable
+            return acc
+          },
+          {}
+        )
       }
     }
   }
