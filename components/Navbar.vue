@@ -5,7 +5,7 @@ const { navigation } = useContent()
 <template>
   <div class="flex justify-between max-w-2xl px-4 py-4 mx-auto sm:px-8">
     <!-- Navigation -->
-    <div class="text-gray-700 dark:text-gray-200">
+    <div class="text-primary-700 dark:text-primary-200">
       <NuxtLink
         v-for="link of navigation"
         :key="link._path"
@@ -17,10 +17,10 @@ const { navigation } = useContent()
       </NuxtLink>
     </div>
     <!-- Social icons & Color Mode -->
-    <div class="space-x-3 text-gray-500 transition">
-      <a href="https://twitter.com/Atinux" title="Twitter" class="hover:text-gray-700 dark:hover:text-gray-300"><Icon name="fa-brands:twitter" /></a>
-      <a href="https://github.com/Atinux/content-wind" title="GitHub" class="hover:text-gray-700 dark:hover:text-gray-300"><Icon name="fa-brands:github" /></a>
-      <ColorModeSwitch class="hover:text-gray-700 dark:hover:text-gray-300" />
+    <div class="space-x-3 text-primary-500 transition">
+      <a v-if="$theme.value.socials?.twitter" :href="`https://twitter.com/${$theme.value.socials?.twitter}`" title="Twitter" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300"><Icon name="fa-brands:twitter" /></a>
+      <a v-if="$theme.value.socials?.github" :href="`https://github.com/${$theme.value.socials?.github}`" title="Twitter" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300"><Icon name="fa-brands:github" /></a>
+      <ColorModeSwitch class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300" />
     </div>
   </div>
 </template>

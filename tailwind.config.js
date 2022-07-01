@@ -1,6 +1,6 @@
-const { themeTokens } = require('./.nuxt/theme/tokens')
+import { $dt } from 'nuxt-theme-kit'
 
-module.exports = {
+export default {
   darkMode: 'class',
   plugins: [
     require('@tailwindcss/typography')
@@ -9,14 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Customize the feeling of your site
-        gray: Object.entries(themeTokens.colors.gray).reduce(
-          (acc, [key, value]) => {
-            acc[key] = value.variable
-            return acc
-          },
-          {}
-        )
+        primary: $dt('colors.primary')
       }
     }
   }
