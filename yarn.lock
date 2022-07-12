@@ -421,6 +421,17 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@nuxt-themes/kit@npm:@nuxt-themes/kit-edge@latest":
+  version "0.0.1-27625903.4ee2336"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/kit-edge/-/kit-edge-0.0.1-27625903.4ee2336.tgz#ccdf447523f21ba313d84e42d3f2e2d833e58003"
+  integrity sha512-kT2bWF3ATFuIRs19uhqpKCHElI2CuP5TN2SdHs7xsqMxXHpaMV2AIIfH+7jpTpWco0tCltSbRpKL9JQFLmTrDQ==
+  dependencies:
+    "@nuxt/kit" "^3.0.0-rc.4"
+    "@types/lodash.get" "^4.4.7"
+    chroma-js "^2.4.2"
+    lodash.get "^4.4.2"
+    untyped "^0.4.4"
+
 "@nuxt/content@npm:@nuxt/content-edge@latest":
   version "2.1.0-27610072.a4ab944"
   resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.1.0-27610072.a4ab944.tgz#0cc6225ac6dcfe62b4cef71c2da5efbd28c077f2"
@@ -5021,17 +5032,6 @@ nth-check@^2.0.1:
   integrity sha512-Lz+7WKTj3ES9T5EKobt2DZyuVqUYWpmnMqnGfOXWJbV+9aMTc4jhZOfp4Z57cDEOGHr7C06OBjHoWAHQY9D7Xw==
   optionalDependencies:
     fsevents "~2.3.2"
-
-"nuxt-theme-kit@npm:nuxt-theme-kit-edge@latest":
-  version "0.0.1-27611905.2f44ea1"
-  resolved "https://registry.yarnpkg.com/nuxt-theme-kit-edge/-/nuxt-theme-kit-edge-0.0.1-27611905.2f44ea1.tgz#501740dab942e827adc994982f59b80ce0a3b651"
-  integrity sha512-tQrEiBnzVSzO2hnsMT28ZU12uWZyS1lpOYFLnZHUOGb0YkOtA5+RUk9rkNef1UJYAOfXO43aVMk4jHlar9qdQQ==
-  dependencies:
-    "@nuxt/kit" "^3.0.0-rc.4"
-    "@types/lodash.get" "^4.4.7"
-    chroma-js "^2.4.2"
-    lodash.get "^4.4.2"
-    untyped "^0.4.4"
 
 "nuxt@npm:nuxt3@latest":
   version "3.0.0-rc.4-27611167.a41644e"

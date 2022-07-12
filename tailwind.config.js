@@ -1,4 +1,4 @@
-import { $dt } from 'nuxt-theme-kit'
+import { $dt } from '@nuxt-themes/kit'
 
 export default {
   darkMode: 'class',
