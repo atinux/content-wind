@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     }
   },
   modules: [
-    '@nuxt-themes/kit/module',
+    '@nuxt-themes/config/module',
+    '@nuxtjs/design-tokens/module',
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode'

@@ -1,4 +1,4 @@
-import { $dt } from '@nuxt-themes/kit'
+import { $dt } from '@nuxtjs/design-tokens'
 
 export default {
   darkMode: 'class',
