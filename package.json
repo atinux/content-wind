@@ -13,10 +13,10 @@
     "@nuxtjs/color-mode": "^3.1.4",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/tailwindcss": "^5.3.0",
-    "@tailwindcss/typography": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.4",
     "browser-style-dictionary": "^3.1.1-browser.1",
-    "eslint": "^8.18.0",
-    "nuxt": "npm:nuxt3@latest",
+    "eslint": "^8.20.0",
+    "nuxt": "^3.0.0-rc.6",
     "@nuxtjs/design-tokens": "npm:@nuxtjs/design-tokens-edge@latest",
     "@nuxt-themes/config": "npm:@nuxt-themes/config-edge@latest",
     "typescript": "^4.7.4"
