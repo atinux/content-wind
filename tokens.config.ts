@@ -5,6 +5,6 @@ const colors = ['#320E3B', '#6B7FD7', '#DDFBD2', '#E27396']
 
 export default defineTokens({
   colors: {
-    primary: palette(colors[3])
+    primary: palette(colors[4])
   }
 })
