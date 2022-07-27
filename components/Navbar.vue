@@ -13,11 +13,11 @@ const { navigation } = useContent()
         active-class="font-bold"
         class="mr-4"
       >
-        {{ link.navTitle || link.title }}
+        {{ link.title }}
       </NuxtLink>
     </div>
     <!-- Social icons & Color Mode -->
-    <div class="space-x-3 text-primary-500 transition">
+    <div class="space-x-3 transition text-primary-500">
       <a v-if="$theme.value.socials?.twitter" :href="`https://twitter.com/${$theme.value.socials?.twitter}`" title="Twitter" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300"><Icon name="fa-brands:twitter" /></a>
       <a v-if="$theme.value.socials?.github" :href="`https://github.com/${$theme.value.socials?.github}`" title="Twitter" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300"><Icon name="fa-brands:github" /></a>
       <ColorModeSwitch class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300" />
