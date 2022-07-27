@@ -6167,11 +6167,7 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-<<<<<<< HEAD
 rollup@^2.59.0, rollup@^2.75.6, rollup@^2.76.0, rollup@^2.77.0:
-=======
-rollup@^2.75.6, rollup@^2.76.0, rollup@^2.77.1:
->>>>>>> 2b1112e9ef88839f28b196c02db85e9a86331198
   version "2.77.1"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.77.1.tgz#63463ebdbc04232fc42630ec72d137cd4400975d"
   integrity sha512-GhutNJrvTYD6s1moo+kyq7lD9DeR5HDyXo4bDFlDSkepC9kVKY+KK/NSZFzCmeXeia3kEzVuToQmHRdugyZHxw==
