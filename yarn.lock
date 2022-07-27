@@ -422,17 +422,17 @@
     fastq "^1.6.0"
 
 "@nuxt-themes/config@npm:@nuxt-themes/config-edge@latest":
-  version "0.0.1-27646503.18d770b"
-  resolved "https://registry.yarnpkg.com/@nuxt-themes/config-edge/-/config-edge-0.0.1-27646503.18d770b.tgz#bba667dc1c4d7cbd9baa7d13d50a211e0ab781fd"
-  integrity sha512-0EJnMkTmWI/qS8LJZevdUSz5HaOjv48gu/3rzuWpJ5AT6AgIa5PiHNbi8T3zo6w8YzCVk3MEienXTVgc1LGQPA==
+  version "0.0.1-27647925.f0ee392"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/config-edge/-/config-edge-0.0.1-27647925.f0ee392.tgz#d131d9e014bb9c12b37664ccb060256c52df3f20"
+  integrity sha512-Xc2y6Q7SIiN16KjUcRb5FIFFmb9eL6xhYOz2OV4zxzM+TCq/pGz/yswkbzgQp2koElaf6mvBVUkf3/sfarGqVQ==
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.6"
     untyped "^0.4.4"
 
 "@nuxt/content@npm:@nuxt/content-edge@latest":
-  version "2.1.0-27645872.29f90a4"
-  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.1.0-27645872.29f90a4.tgz#bbe26c32bffe676e996657554640b2bcf394092e"
-  integrity sha512-Z38BULTM6tlGGV13mqIzzpwW5xeA0+YRxbDea2RSAGCiHAhvtHNtV+e2XV3eJyaA9XgpGySSdVmWGPHeUkDh6g==
+  version "2.1.0-27647431.0fd824a"
+  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.1.0-27647431.0fd824a.tgz#2a0beb580ebc5ed66609191478a2d46063cef444"
+  integrity sha512-v7Cc3Du1M2xDntYYrkzdIoClYJUjRdw+8mefjDRRTSor4kTIb6DSaplUJ4j2UyuIrLOYV+DEYnS5iNmix94bgA==
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.6"
     consola "^2.15.3"
@@ -455,7 +455,7 @@
     rehype-sort-attributes "^4.0.0"
     remark-emoji "^3.0.2"
     remark-gfm "^3.0.1"
-    remark-mdc "^1.0.1"
+    remark-mdc "^1.0.2"
     remark-parse "^10.0.1"
     remark-rehype "^10.1.0"
     remark-squeeze-paragraphs "^5.0.1"
@@ -2262,9 +2262,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.188:
-  version "1.4.200"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.200.tgz#6e4c5266106688965b4ea7caa11f0dd315586854"
-  integrity sha512-nPyI7oHc8T64oSqRXrAt99gNMpk0SAgPHw/o+hkNKyb5+bcdnFtZcSO9FUJES5cVkVZvo8u4qiZ1gQILl8UXsA==
+  version "1.4.202"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.202.tgz#0c2ed733f42b02ec49a955c5badfcc65888c390b"
+  integrity sha512-JYsK2ex9lmQD27kj19fhXYxzFJ/phLAkLKHv49A5UY6kMRV2xED3qMMLg/voW/+0AR6wMiI+VxlmK9NDtdxlPA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -5982,10 +5982,10 @@ remark-gfm@^3.0.1:
     micromark-extension-gfm "^2.0.0"
     unified "^10.0.0"
 
-remark-mdc@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/remark-mdc/-/remark-mdc-1.0.1.tgz#006a17672161b4edc3746b49bed8f38fbba91d9c"
-  integrity sha512-KxIMQOUtlSNL5Ycwe2de5X9HiN+aQ5/gsi9DRRShdxTt0DUtTvR8D+dTBQWZzieaJQKqJ4E/TbTJf3aG1+Q+QQ==
+remark-mdc@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/remark-mdc/-/remark-mdc-1.0.2.tgz#f417adac00c7dbd062d8f842c4115e545b131335"
+  integrity sha512-D4G4c4tb+dFnmbo7LE0og21cF04ZOk3dSd0jSKvUSkiprd/qKclFKT+fEeXa2WqG8c7W6aCn36eSwPbzkCWb2A==
   dependencies:
     flat "^5.0.2"
     js-yaml "^4.1.0"
@@ -6129,9 +6129,9 @@ rollup-pluginutils@^2.8.2:
     estree-walker "^0.6.1"
 
 rollup@^2.59.0, rollup@^2.75.6, rollup@^2.76.0, rollup@^2.77.0:
-  version "2.77.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.77.0.tgz#749eaa5ac09b6baa52acc076bc46613eddfd53f4"
-  integrity sha512-vL8xjY4yOQEw79DvyXLijhnhh+R/O9zpF/LEgkCebZFtb6ELeN9H3/2T0r8+mp+fFTBHZ5qGpOpW2ela2zRt3g==
+  version "2.77.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.77.1.tgz#63463ebdbc04232fc42630ec72d137cd4400975d"
+  integrity sha512-GhutNJrvTYD6s1moo+kyq7lD9DeR5HDyXo4bDFlDSkepC9kVKY+KK/NSZFzCmeXeia3kEzVuToQmHRdugyZHxw==
   optionalDependencies:
     fsevents "~2.3.2"
 
