@@ -1,6 +1,6 @@
-const colors = require('tailwindcss/colors')
+import { $dt } from '@nuxtjs/design-tokens'
 
-module.exports = {
+export default {
   darkMode: 'class',
   plugins: [
     require('@tailwindcss/typography')
@@ -9,8 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Customize the feeling of your site
-        gray: colors.stone
+        primary: $dt('colors.primary')
       }
     }
   }
