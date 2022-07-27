@@ -21,7 +21,17 @@ export default defineNuxtConfig({
       theme: 'dracula'
     }
   },
+  // Coming soon in RC7
   experimental: {
     viteNode: true
+  },
+  app: {
+    theme: {
+      meta: {
+        name: 'Content Wind',
+        author: 'Sebastien Chopin (@Atinux)',
+        description: 'A lightweight Nuxt theme to build a Markdown driven website, based on Nuxt Content, TailwindCSS and Iconify ✨'
+      }
+    }
   }
 })
