@@ -1,11 +1,13 @@
 import { defineTokens } from '@nuxtjs/design-tokens'
 
+// import { defineTokens, palette } from '@nuxtjs/design-tokens'
 // Select a color palette for your theme
 // const colors = ['#F8818C', '#6B7FD7', '#DDFBD2', '#E27396'].map(hex => palette(hex))
 // Use as `primary: colors[index]`
 
 export default defineTokens({
   colors: {
+    // primary: colors[0]
     primary: {
       DEFAULT: { value: '#78716c' },
       50: { value: '#fafaf9' },
