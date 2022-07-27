@@ -2,21 +2,6 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-  app: {
-    /**
-     * https://nuxt-theme-kit.netlify.app
-     */
-    // TODO: Remove this ignore
-    // https://github.com/nuxt-themes/config/issues/5
-    // @ts-ignore
-    theme: {
-      meta: {
-        name: 'Content Wind',
-        author: 'Sébastien Chopin',
-        description: 'A lightweight Nuxt template to build a Markdown driven website, based on Nuxt Content, TailwindCSS and Iconify. ✨'
-      }
-    }
-  },
   modules: [
     '@nuxt-themes/config/module',
     '@nuxtjs/design-tokens/module',
