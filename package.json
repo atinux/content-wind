@@ -11,7 +11,8 @@
     "nuxt.config.ts",
     "tailwind.config.ts",
     "theme.config.ts",
-    "tokens.config.ts"
+    "tokens.config.ts",
+    "app.vue"
   ],
   "scripts": {
     "dev": "nuxi dev",
