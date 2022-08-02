@@ -3,17 +3,6 @@
   "private": false,
   "version": "0.0.3",
   "main": "nuxt.config.ts",
-  "files": [
-    "app/",
-    "components/",
-    "layouts/",
-    "public/",
-    "nuxt.config.ts",
-    "tailwind.config.ts",
-    "theme.config.ts",
-    "tokens.config.ts",
-    "app.vue"
-  ],
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",

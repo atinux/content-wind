@@ -1,5 +1,5 @@
 <template>
-  <ContentWind>
+  <AppLayout>
     <NuxtPage />
-  </ContentWind>
+  </AppLayout>
 </template>
