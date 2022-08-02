@@ -441,9 +441,9 @@
     untyped "^0.4.4"
 
 "@nuxt/content@npm:@nuxt/content-edge@latest":
-  version "2.1.0-27657482.343db3e"
-  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.1.0-27657482.343db3e.tgz#70cc40b6ac37f78beff513c1f680f80f3ac3d67e"
-  integrity sha512-0cbHuicZbcA0xNLpf/KPK5LsONN9BJM61ha3Ye2ZmkXmE0noxHqgI+7K7qYZX1Ztn6xIKGiW+Zp5WH8tU37vKg==
+  version "2.1.0-27657522.a587a1d"
+  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.1.0-27657522.a587a1d.tgz#60493e3402e253f465e7368ed3417ef21f8ed05c"
+  integrity sha512-E2avIJQH/S41c6mu/aRytF21TFh0jNQLw/yaNjIUDtmPD8+gimVYJ5xJyPNeTUwy/OmGCJ81tkHwdgmpterosw==
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.6"
     consola "^2.15.3"
