@@ -22,7 +22,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "eslint": "^8.20.0",
-    "nuxt": "^3.0.0-rc.6",
+    "nuxt": "npm:nuxt3@latest",
     "typescript": "^4.7.4"
   }
 }
