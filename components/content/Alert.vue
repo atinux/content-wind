@@ -15,10 +15,10 @@ defineProps({
       </div>
       <div>
         <h3 class="m-0 text-base font-medium text-yellow-800">
-          <Markdown :use="$slots.title" unwrap="p" />
+          <ContentSlot :use="$slots.title" unwrap="p" />
         </h3>
         <div class="mt-2 text-sm text-yellow-700">
-          <Markdown :use="$slots.default" unwrap="p" />
+          <ContentSlot :use="$slots.default" unwrap="p" />
         </div>
       </div>
     </div>

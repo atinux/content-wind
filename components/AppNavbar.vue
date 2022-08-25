@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 const { navigation } = useContent()
-const theme = useTheme()
+const appConfig = useAppConfig()
 </script>
 
 <template>
@@ -19,8 +19,8 @@ const theme = useTheme()
     </div>
     <!-- Social icons & Color Mode -->
     <div class="space-x-3 transition text-primary-500">
-      <a v-if="theme.socials?.twitter" :href="`https://twitter.com/${theme.socials?.twitter}`" title="Twitter" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300"><Icon name="fa-brands:twitter" /></a>
-      <a v-if="theme.socials?.github" :href="`https://github.com/${theme.socials?.github}`" title="GitHub" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300"><Icon name="fa-brands:github" /></a>
+      <a v-if="appConfig.socials?.twitter" :href="`https://twitter.com/${appConfig.socials?.twitter}`" title="Twitter" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300"><Icon name="fa-brands:twitter" class="w-5 h-5" /></a>
+      <a v-if="appConfig.socials?.github" :href="`https://github.com/${appConfig.socials?.github}`" title="GitHub" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300"><Icon name="fa-brands:github" class="w-5 h-5" /></a>
       <ColorModeSwitch class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300" />
     </div>
   </div>

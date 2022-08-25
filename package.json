@@ -11,13 +11,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@iconify/vue": "^3.2.1",
-    "@nuxt-themes/config": "npm:@nuxt-themes/config-edge@latest",
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxtjs/color-mode": "^3.1.4",
-    "@nuxtjs/design-tokens": "npm:@nuxtjs/design-tokens-edge@latest",
     "@nuxtjs/tailwindcss": "^5.3.1",
-    "@tailwindcss/typography": "^0.5.4"
+    "@tailwindcss/typography": "^0.5.4",
+    "nuxt-icon": "^0.1.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
