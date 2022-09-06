@@ -13,14 +13,14 @@
   "dependencies": {
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxtjs/color-mode": "^3.1.4",
-    "@nuxtjs/tailwindcss": "^5.3.1",
-    "@tailwindcss/typography": "^0.5.4",
-    "nuxt-icon": "^0.1.2"
+    "@nuxtjs/tailwindcss": "^5.3.2",
+    "@tailwindcss/typography": "^0.5.7",
+    "nuxt-icon": "^0.1.4"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config-typescript": "^10.0.0",
-    "eslint": "^8.20.0",
-    "nuxt": "npm:nuxt3@latest",
-    "typescript": "^4.7.4"
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.23.0",
+    "nuxt": "^3.0.0-rc.9",
+    "typescript": "^4.8.2"
   }
 }
