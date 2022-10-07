@@ -1,0 +1,20 @@
+{
+  "name": "content-wind",
+  "private": false,
+  "version": "0.0.6",
+  "main": "nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.1.1",
+    "@nuxtjs/color-mode": "^3.1.7",
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "@tailwindcss/typography": "^0.5.7",
+    "nuxt-icon": "^0.1.6"
+  }
+}
