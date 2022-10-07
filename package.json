@@ -1,21 +1,15 @@
 {
-  "name": "content-wind",
-  "private": false,
-  "version": "0.0.5",
-  "main": "nuxt.config.ts",
+  "private": true,
+  "workspaces": [
+    "./theme",
+    "./template"
+  ],
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
+    "dev": "nuxi prepare theme & nuxi dev template",
+    "build": "nuxi build template",
+    "generate": "nuxi generate template",
+    "preview": "nuxi preview template",
     "lint": "eslint ."
-  },
-  "dependencies": {
-    "@nuxt/content": "^2.1.1",
-    "@nuxtjs/color-mode": "^3.1.7",
-    "@nuxtjs/tailwindcss": "^5.3.3",
-    "@tailwindcss/typography": "^0.5.7",
-    "nuxt-icon": "^0.1.6"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^11.0.0",

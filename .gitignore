@@ -6,3 +6,11 @@ node_modules
 .output
 .env
 dist
+.DS_Store
+
+# Yarn
+.yarn/cache
+.yarn/*state*
+
+# Local History
+.history
