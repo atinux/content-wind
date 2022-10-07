@@ -656,10 +656,10 @@
     eslint-plugin-unicorn "^43.0.2"
     eslint-plugin-vue "^9.4.0"
 
-"@nuxtjs/tailwindcss@^5.3.4":
-  version "5.3.4"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-5.3.4.tgz#a4faaafbb30e950f176eb31853b5e9645b998c0f"
-  integrity sha512-9GS7JDuRTayNUXdyR/RXJT5/NdxqqzLD1N28WBoy+yp8UcPT6DrpNve/9isy+7zInrHfHSiR5FEPrzJ6vrR4Mg==
+"@nuxtjs/tailwindcss@^5.3.5":
+  version "5.3.5"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-5.3.5.tgz#9d1988f0f8433e67df5707eea2ea2e8ac004a10c"
+  integrity sha512-d6noacVfcN88R6Iqd5/kl7YyumE+EIsz6ky26JvidHtkTeAPxZt8XN/KFEMJ6xwSvhsUndrNW94XYPKv7l79jg==
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.9"
     "@nuxt/postcss8" "^1.1.3"
