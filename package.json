@@ -9,12 +9,14 @@
     "build": "nuxi build template",
     "generate": "nuxi generate template",
     "preview": "nuxi preview template",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "cd theme && standard-version && git push --follow-tags && npx npm publish"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
     "eslint": "^8.24.0",
     "nuxt": "^3.0.0-rc.11",
+    "standard-version": "^9.5.0",
     "typescript": "^4.8.4"
   }
 }
