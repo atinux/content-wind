@@ -1,10 +1,10 @@
-[![Content Wind](https://github.com/Atinux/content-wind/raw/main/public/cover.jpg)](https://content-wind.nuxt.dev)
+[![Content Wind](https://github.com/Atinux/content-wind/raw/main/public/cover.jpg)](https://content-wind.nuxt.space)
 
 # Content Wind
 
 A lightweight Nuxt template to write a Markdown driven website, based on [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com) and [Iconify](https://iconify.design).
 
-- [Demo & Docs](https://content-wind.nuxt.dev)
+- [Demo & Docs](https://content-wind.nuxt.space)
 - [Play online](https://stackblitz.com/github/Atinux/content-wind?file=content%2F1.index.md)
 
 ## Features
