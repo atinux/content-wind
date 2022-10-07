@@ -1,6 +1,12 @@
 export default defineAppConfig({
-  socials: {
-    twitter: 'Atinux',
-    github: 'Atinux/content-wind'
-  }
+  socials: {}
 })
+
+declare module '@nuxt/schema' {
+  interface AppConfigInput {
+    socials?: {
+      twitter?: string
+      github?: string
+    }
+  }
+}
