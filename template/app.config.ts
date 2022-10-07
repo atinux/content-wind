@@ -2,6 +2,6 @@ export default defineAppConfig({
   // Configure Content Wind here
   socials: {
     twitter: 'Atinux',
-    github: 'Atinux'
+    github: 'Atinux/content-wind'
   }
 })
