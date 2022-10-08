@@ -4,8 +4,9 @@
 
 A lightweight Nuxt theme to write a Markdown driven website, based on [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com) and [Iconify](https://iconify.design).
 
-- [Demo & Docs](https://content-wind.nuxt.space)
-- [Play online](https://stackblitz.com/edit/nuxt-content-wind?file=content%2F1.index.md)
+- 📖&nbsp; [Demo & Docs](https://content-wind.nuxt.space)
+- 🕹&nbsp; [Play online](https://stackblitz.com/edit/nuxt-content-wind?file=content%2F1.index.md)
+- 👀&nbsp; [Demo video](https://twitter.com/Atinux/status/1578505586979012608)
 
 ## Features
 
