@@ -2,7 +2,7 @@
 
 # Content Wind
 
-A lightweight Nuxt theme to write a Markdown driven website, based on [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com) and [Iconify](https://iconify.design).
+A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), [Iconify](https://iconify.design) and [Vue components](https://vuejs.org).
 
 - 📖&nbsp; [Demo & Docs](https://content-wind.nuxt.space)
 - 🕹&nbsp; [Play online](https://stackblitz.com/edit/nuxt-content-wind?file=content%2F1.index.md)
@@ -17,7 +17,7 @@ A lightweight Nuxt theme to write a Markdown driven website, based on [Nuxt Cont
 - Switch between Light & Dark mode :moon:
 - Access 100,000 icons from 100+ icon sets with the [`<Icon>` component](https://github.com/Atinux/nuxt-icon)
 - Highlight code blocks with [Shiki](https://shiki.matsu.io)
-- Create Vue components and use them in your Markdown
+- Create Vue components in `components/content/` and use them in your Markdown
 - Deploy on any Node or Static hosting: GH Pages, Vercel, Netlify, Heroku, etc.
 
 ## Usage
