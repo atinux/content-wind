@@ -452,12 +452,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt/content@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.1.1.tgz#b3ebed4ad14c49bbc84f748e6bfd6413c8e800ec"
-  integrity sha512-yYjmPmG9FRl6/vDQNobbHZlr0LNe9cP5PJcz4WfQN/alOAQaym0NRhlhZTkMe6Qb6yVjycE5IH2zU1f+o98c6g==
+"@nuxt/content@npm:@nuxt/content-edge@latest":
+  version "2.1.1-27756924.c11a480"
+  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.1.1-27756924.c11a480.tgz#6fd72cbfebf874614c9e369a4ec1f70714362003"
+  integrity sha512-25o9nzAwGjgRNwohW/LLGtkxqj9UKEzFnSYA7zvcpwInRisokh+HG0NK/D98i8Ltx4D7y6U7STgIK3f6ycQpCQ==
   dependencies:
-    "@nuxt/kit" "^3.0.0-rc.10"
+    "@nuxt/kit" "^3.0.0-rc.11"
     consola "^2.15.3"
     defu "^6.1.0"
     destr "^1.1.1"
@@ -465,11 +465,11 @@
     html-tags "^3.2.0"
     json5 "^2.2.1"
     knitwork "^0.1.2"
-    listhen "^0.2.15"
-    mdast-util-to-hast "^12.2.2"
+    listhen "^0.3.4"
+    mdast-util-to-hast "^12.2.4"
     mdurl "^1.0.1"
     ohash "^0.1.5"
-    pathe "^0.3.7"
+    pathe "^0.3.8"
     property-information "^6.1.1"
     rehype-external-links "^2.0.1"
     rehype-raw "^6.1.1"
@@ -491,14 +491,14 @@
     unist-util-position "^4.0.3"
     unist-util-visit "^4.1.1"
     unstorage "^0.5.6"
-    ws "^8.8.1"
+    ws "^8.9.0"
 
 "@nuxt/devalue@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.0.tgz#c7bd7e9a516514e612d5d2e511ffc399e0eac322"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
 
-"@nuxt/kit@3.0.0-rc.11", "@nuxt/kit@^3.0.0-rc.10", "@nuxt/kit@^3.0.0-rc.9":
+"@nuxt/kit@3.0.0-rc.11", "@nuxt/kit@^3.0.0-rc.11", "@nuxt/kit@^3.0.0-rc.9":
   version "3.0.0-rc.11"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.11.tgz#d147ef65509c073f1101fa1a19071e309bcf634f"
   integrity sha512-o0E/k635Lzcxp4K5t0ToHC6WwQ1wyN0EIqMAQEzgiUexoAhzdURr21QI0D6e6U461u4KP7x92wYM87VxhMFXmQ==
@@ -4371,7 +4371,7 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-listhen@^0.2.13, listhen@^0.2.15:
+listhen@^0.2.13:
   version "0.2.15"
   resolved "https://registry.yarnpkg.com/listhen/-/listhen-0.2.15.tgz#1af0f47f94a09d5f3ba4efa5a4b07df65198bb59"
   integrity sha512-F/IWj/aJLeokHAIVY+l3JoWRUnbRaf2F0cr+Ybc1YyozMA/yP0C2nf3c0Oi7vAbFvtfiwfWWfP7bIrQc/u5L1A==
@@ -4384,7 +4384,7 @@ listhen@^0.2.13, listhen@^0.2.15:
     selfsigned "^2.0.1"
     ufo "^0.8.5"
 
-listhen@^0.3.1:
+listhen@^0.3.1, listhen@^0.3.4:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/listhen/-/listhen-0.3.4.tgz#5bb0db65dae5f2204ffa7ee46b40f2330854cf7f"
   integrity sha512-cuzWWoIWF8JvsPLmIurTkUXi27owH4RRKnBsbPswRJvB82uTv15W01yOOLaPvjxY5mMlftmW2p1XnxB835AdRA==
@@ -4700,7 +4700,7 @@ mdast-util-gfm@^2.0.0:
     mdast-util-gfm-task-list-item "^1.0.0"
     mdast-util-to-markdown "^1.0.0"
 
-mdast-util-to-hast@^12.1.0, mdast-util-to-hast@^12.2.2:
+mdast-util-to-hast@^12.1.0, mdast-util-to-hast@^12.2.4:
   version "12.2.4"
   resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-12.2.4.tgz#34c1ef2b6cf01c27b3e3504e2c977c76f722e7e1"
   integrity sha512-a21xoxSef1l8VhHxS1Dnyioz6grrJkoaCUgGzMD/7dWHvboYX3VW53esRUfB5tgTyz4Yos1n25SPcj35dJqmAg==
@@ -7865,7 +7865,7 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-ws@^8.8.1:
+ws@^8.8.1, ws@^8.9.0:
   version "8.9.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.9.0.tgz#2a994bb67144be1b53fe2d23c53c028adeb7f45e"
   integrity sha512-Ja7nszREasGaYUYCI2k4lCKIRTt+y7XuqVoHR44YpI49TtryyqbqvDMn5eqfW7e6HzTukDRIsXqzVHScqRcafg==
