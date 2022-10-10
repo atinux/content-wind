@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/Atinux/content-wind/compare/v0.1.0...v0.1.1) (2022-10-10)
+
+
+### Bug Fixes
+
+* broken links ([#26](https://github.com/Atinux/content-wind/issues/26)) ([d060828](https://github.com/Atinux/content-wind/commit/d060828f15daded2c796b6f32622ad9d8afceae4))
+
 ### [0.0.8](https://github.com/Atinux/content-wind/compare/v0.0.7...v0.0.8) (2022-10-07)
 
 ### [0.0.7](https://github.com/Atinux/content-wind/compare/v0.0.5...v0.0.7) (2022-10-07)
