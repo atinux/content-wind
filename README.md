@@ -22,7 +22,11 @@ A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), 
 
 ## Usage
 
-Start your project with:
+Duplicate the GitHub template: [Atinux/content-wind-template](https://github.com/Atinux/content-wind-template)
+
+**Or**
+
+Start locally:
 
 ```bash
 npx nuxi@latest init -t themes/content-wind my-website
