@@ -12,6 +12,8 @@ A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), 
 - 🕹&nbsp; [Play online](https://stackblitz.com/github/Atinux/content-wind-template)
 - 👀&nbsp; [Demo video](https://twitter.com/Atinux/status/1578505586979012608)
 
+[![Use this template][use-template-src]][use-template-href]
+
 ## Features
 
 - Create pages in Markdown in the `content/` directory
@@ -51,3 +53,6 @@ Then follow the instructions and you are ready to go :rocket:
 
 [license-src]: https://img.shields.io/github/license/Atinux/content-wind.svg?style=flat&colorA=002438&colorB=28CF8D
 [license-href]: https://github.com/Atinux/content-wind/blob/main/LICENSE
+
+[use-template-src]: https://img.shields.io/badge/⚡️-Use%20this%20template-28CF8D?style=flat&colorA=002438&colorB=28CF8D
+[use-template-href]: https://github.com/Atinux/content-wind-template/generate
