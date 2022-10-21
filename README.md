@@ -20,7 +20,7 @@ A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), 
 - Create Vue components in `components/content/` and use them in your Markdown
 - Deploy on any Node or Static hosting: GH Pages, Vercel, Netlify, Heroku, etc.
 
-## Usage
+## Get started
 
 Duplicate the GitHub template: [Atinux/content-wind-template](https://github.com/Atinux/content-wind-template)
 
