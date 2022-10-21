@@ -2,6 +2,10 @@
 
 # Content Wind
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
+
 A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), [Iconify](https://iconify.design) and [Vue components](https://vuejs.org).
 
 - 📖&nbsp; [Demo & Docs](https://content-wind.nuxt.space)
@@ -33,3 +37,17 @@ npx nuxi@latest init -t themes/content-wind my-website
 ```
 
 Then follow the instructions and you are ready to go :rocket:
+
+## License 📎
+
+[MIT License](./LICENSE)
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/content-wind/latest.svg?style=flat&colorA=002438&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/content-wind
+
+[npm-downloads-src]: https://img.shields.io/npm/dt/content-wind.svg?style=flat&colorA=002438&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/content-wind
+
+[license-src]: https://img.shields.io/github/license/Atinux/content-wind.svg?style=flat&colorA=002438&colorB=28CF8D
+[license-href]: https://github.com/Atinux/content-wind/blob/main/LICENSE
