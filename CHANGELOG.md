@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/Atinux/content-wind/compare/v0.1.3...v0.2.0) (2022-10-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* move as flat structure
+
+### Features
+
+* move as flat structure ([faa3c1a](https://github.com/Atinux/content-wind/commit/faa3c1a9d48dbd280fdd02cd34f559dad52bb72b))
+
 ### [0.1.3](https://github.com/Atinux/content-wind/compare/v0.1.2...v0.1.3) (2022-10-19)
 
 ### [0.1.2](https://github.com/Atinux/content-wind/compare/v0.1.1...v0.1.2) (2022-10-10)
