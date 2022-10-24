@@ -1,3 +1,0 @@
-# Home
-
-Hello from playground.

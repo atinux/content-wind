@@ -5,14 +5,13 @@
   "main": "nuxt.config.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
-    "play": "nuxi dev .playground",
+    "dev": "nuxi dev .demo",
+    "build": "nuxi build .demo",
+    "generate": "nuxi generate .demo",
+    "preview": "nuxi preview .demo",
     "lint": "eslint .",
     "release": "standard-version && git push --follow-tags && npx npm publish",
-    "postinstall": "nuxi prepare theme"
+    "postinstall": "nuxi prepare"
   },
   "files": [
     "app/",
