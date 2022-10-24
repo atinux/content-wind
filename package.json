@@ -10,8 +10,7 @@
     "generate": "nuxi generate .demo",
     "preview": "nuxi preview .demo",
     "lint": "eslint .",
-    "release": "standard-version && git push --follow-tags && npx npm publish",
-    "postinstall": "nuxi prepare"
+    "release": "standard-version && git push --follow-tags && npx npm publish"
   },
   "files": [
     "app/",
