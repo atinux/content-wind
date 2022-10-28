@@ -6,8 +6,8 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
 <template>
   <button aria-label="Color Mode" class="inline-block w-5" @click="onClick">
     <ColorScheme placeholder="...">
-      <Icon v-if="colorMode.value === 'dark'" name="heroicons-outline:moon" class="w-5 h-5" />
-      <Icon v-else name="heroicons-outline:sun" class="w-5 h-5" />
+      <Icon v-if="colorMode.value === 'dark'" name="ph:moon-bold" class="w-5 h-5" />
+      <Icon v-else name="ph:sun-bold" class="w-5 h-5" />
     </ColorScheme>
   </button>
 </template>
