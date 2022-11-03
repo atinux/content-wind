@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    'nuxt-icon'
+    'nuxt-icon',
+    '@nuxthq/studio'
   ],
   // https://color-mode.nuxtjs.org
   colorMode: {
