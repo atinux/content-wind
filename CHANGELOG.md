@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/Atinux/content-wind/compare/v0.2.4...v0.2.5) (2022-11-03)
+
+
+### Features
+
+* add cover as global option ([67e9125](https://github.com/Atinux/content-wind/commit/67e91252ac017006089fab6173550deab95c6c79))
+
 ### [0.2.4](https://github.com/Atinux/content-wind/compare/v0.2.3...v0.2.4) (2022-10-24)
 
 ### [0.2.3](https://github.com/Atinux/content-wind/compare/v0.2.2...v0.2.3) (2022-10-24)
