@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.7](https://github.com/Atinux/content-wind/compare/v0.2.6...v0.2.7) (2022-11-03)
+
+
+### Features
+
+* add content wind version in logs ([c5af5e0](https://github.com/Atinux/content-wind/commit/c5af5e0f71d502f9c36d3c8979d59794bfe54f0f))
+
 ### [0.2.6](https://github.com/Atinux/content-wind/compare/v0.2.5...v0.2.6) (2022-11-03)
 
 ### [0.2.5](https://github.com/Atinux/content-wind/compare/v0.2.4...v0.2.5) (2022-11-03)
