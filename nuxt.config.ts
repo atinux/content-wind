@@ -1,3 +1,6 @@
+import { version } from './package.json'
+import { logger } from '@nuxt/kit'
+
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   modules: [
@@ -17,6 +20,11 @@ export default defineNuxtConfig({
     highlight: {
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: 'dracula'
+    }
+  },
+  hooks: {
+    'modules:before'() {
+      logger.success(`Using Content Wind v${version}`)
     }
   }
 })
