@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nuxt/content': ^2.2.1
-  '@nuxthq/studio': ^0.1.2
+  '@nuxthq/studio': ^0.1.3
   '@nuxtjs/color-mode': ^3.1.8
   '@nuxtjs/eslint-config-typescript': ^11.0.0
   '@nuxtjs/tailwindcss': ^6.1.2
@@ -15,7 +15,7 @@ specifiers:
 
 dependencies:
   '@nuxt/content': 2.2.1
-  '@nuxthq/studio': 0.1.2_typescript@4.8.4
+  '@nuxthq/studio': 0.1.3_typescript@4.8.4
   '@nuxtjs/color-mode': 3.1.8
   '@nuxtjs/tailwindcss': 6.1.2
   '@tailwindcss/typography': 0.5.7
@@ -692,8 +692,8 @@ packages:
       - vti
     dev: true
 
-  /@nuxthq/studio/0.1.2_typescript@4.8.4:
-    resolution: {integrity: sha512-jtCjLiPBALtNyxtTY3JsAy6+65IYXVcpPR7wyYouiKdLglIBKLwYFK5A/K/2PBazCuVXOYtXyjkjTEwWcJIIbw==}
+  /@nuxthq/studio/0.1.3_typescript@4.8.4:
+    resolution: {integrity: sha512-5bxpNuNQ1ByYlIrlSLclB0fkkcxcr4isGGiOoNyI1/GoM+h/xhwJ3i14TfbM2xlexxXBH374m/i0N0LcUSB6xQ==}
     dependencies:
       '@nuxt/kit': 3.0.0-rc.12
       '@nuxt/schema': 3.0.0-rc.12
