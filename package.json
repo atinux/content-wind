@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxi prepare && nuxi dev .demo",
-    "build": "nuxi build .demo",
-    "generate": "nuxi generate .demo",
+    "build": "nuxi prepare && nuxi build .demo",
+    "generate": "nuxi prepare && nuxi generate .demo",
     "preview": "nuxi preview .demo",
     "lint": "eslint .",
     "release": "standard-version && git push --follow-tags && npx npm publish"
