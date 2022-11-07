@@ -1,6 +1,8 @@
 import { logger } from '@nuxt/kit'
 import { version } from './package.json'
 
+logger.success(`Using Content Wind v${version}`)
+
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   extends: '@nuxt-themes/typography',
@@ -21,11 +23,6 @@ export default defineNuxtConfig({
     highlight: {
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: 'dracula'
-    }
-  },
-  hooks: {
-    'modules:before' () {
-      logger.success(`Using Content Wind v${version}`)
     }
   }
 })

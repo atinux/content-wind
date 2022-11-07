@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@nuxt-themes/typography': ^0.0.2
+  '@nuxt-themes/typography': ^0.0.5
   '@nuxt/content': ^2.2.1
   '@nuxthq/studio': ^0.1.4
   '@nuxtjs/color-mode': ^3.1.8
@@ -14,7 +14,7 @@ specifiers:
   typescript: ^4.8.4
 
 dependencies:
-  '@nuxt-themes/typography': 0.0.2
+  '@nuxt-themes/typography': 0.0.5
   '@nuxt/content': 2.2.1
   '@nuxthq/studio': 0.1.4_typescript@4.8.4
   '@nuxtjs/color-mode': 3.1.8
@@ -512,8 +512,8 @@ packages:
       - vue
     dev: false
 
-  /@nuxt-themes/typography/0.0.2:
-    resolution: {integrity: sha512-HZjeoiD7EQzeDoFrHD0F3dXNypyHxwp+air3/0PPOZtSQx2duxIJGRzPUvOOXfzw4NXKPlnFOJpesowt4dUc/g==}
+  /@nuxt-themes/typography/0.0.5:
+    resolution: {integrity: sha512-+V5fkWBCw/pwLYfijDO3WP/uigo/51zuV0pQrINWgVb8k9eGKyFMQEuxjYAyeutKxiInJhPCNHCOGtQMpEAZxA==}
     dependencies:
       '@nuxt-themes/tokens': 1.1.3
       '@nuxtjs/color-mode': 3.1.8
@@ -1611,12 +1611,21 @@ packages:
       - vue
     dev: false
 
+  /@vueuse/shared/9.4.0_vue@3.2.41:
+    resolution: {integrity: sha512-fTuem51KwMCnqUKkI8B57qAIMcFovtGgsCtAeqxIzH3i6nE9VYge+gVfneNHAAy7lj8twbkNfqQSygOPJTm4tQ==}
+    dependencies:
+      vue-demi: 0.13.11_vue@3.2.41
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
   /@zhead/schema-vue/0.9.9_vue@3.2.41:
     resolution: {integrity: sha512-f7sOPMc1zQJ+tDDWWaksNsGoGGuRv5aHvOdZvsL3dIxbiHVlGVhDi/HZbUUupCtlYAPv2D8E/tUmwWKh/UrbXw==}
     peerDependencies:
       vue: '>=2.7 || >=3'
     dependencies:
-      '@vueuse/shared': 9.3.1_vue@3.2.41
+      '@vueuse/shared': 9.4.0_vue@3.2.41
       '@zhead/schema': 0.9.9
       vue: 3.2.41
     transitivePeerDependencies:
