@@ -3,7 +3,7 @@ import { version } from './package.json'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-  extends: '@nuxt-themes/prose',
+  extends: '@nuxt-themes/typography',
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
