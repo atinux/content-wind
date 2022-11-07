@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
   extends: '../',
-  modules: ['@nuxthq/studio']
+  modules: ['@nuxthq/studio'],
+  generate: {
+    routes: ['/about']
+  }
 })
