@@ -22,18 +22,18 @@
     "tailwind.config.ts"
   ],
   "dependencies": {
-    "@nuxt-themes/typography": "^0.0.5",
-    "@nuxt/content": "^2.2.1",
-    "@nuxthq/studio": "^0.1.4",
+    "@nuxt-themes/typography": "^0.0.14",
+    "@nuxt/content": "^2.2.2",
+    "@nuxthq/studio": "^0.2.3",
     "@nuxtjs/color-mode": "^3.1.8",
     "@nuxtjs/tailwindcss": "^6.1.3",
     "nuxt-icon": "^0.1.7"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config-typescript": "^11.0.0",
-    "eslint": "^8.26.0",
-    "nuxt": "^3.0.0-rc.13",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.27.0",
+    "nuxt": "^3.0.0",
     "standard-version": "^9.5.0",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.3"
   }
 }
