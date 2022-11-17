@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@nuxt-themes/typography': ^0.0.14
+  '@nuxt-themes/typography': ^0.0.15
   '@nuxt/content': ^2.2.2
   '@nuxthq/studio': ^0.2.3
   '@nuxtjs/color-mode': ^3.1.8
@@ -14,7 +14,7 @@ specifiers:
   typescript: ^4.9.3
 
 dependencies:
-  '@nuxt-themes/typography': 0.0.14
+  '@nuxt-themes/typography': 0.0.15
   '@nuxt/content': 2.2.2
   '@nuxthq/studio': 0.2.3
   '@nuxtjs/color-mode': 3.1.8
@@ -513,8 +513,8 @@ packages:
       - vue
     dev: false
 
-  /@nuxt-themes/typography/0.0.14:
-    resolution: {integrity: sha512-tyCSzjR7C49rK0yoKJs52TeliC5ndohQtEvtYI2Desn4h7IsSqqro6xxSc4GH863gzL32RcuwCjT6BDpwJ7Eqw==}
+  /@nuxt-themes/typography/0.0.15:
+    resolution: {integrity: sha512-/ZLs2MWyDYPGqNc6SRKDT0ifC8yvtdpGvKoOO/+JjDPhaIGy//ks+0T0VAxU01ibtsVreMAc87Fr31xy3wPJKg==}
     dependencies:
       '@nuxt-themes/tokens': 1.1.4
       '@nuxtjs/color-mode': 3.1.8

@@ -22,7 +22,7 @@
     "tailwind.config.ts"
   ],
   "dependencies": {
-    "@nuxt-themes/typography": "^0.0.14",
+    "@nuxt-themes/typography": "^0.0.15",
     "@nuxt/content": "^2.2.2",
     "@nuxthq/studio": "^0.2.3",
     "@nuxtjs/color-mode": "^3.1.8",
