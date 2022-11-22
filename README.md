@@ -16,14 +16,16 @@ A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), 
 ## Features
 
 - Create pages in Markdown in the `content/` directory
-- Use Nuxt layouts in your Markdown pages
+- Use [Nuxt layouts](https://nuxt.com/docs/guide/directory-structure/layouts) in your Markdown pages
 - Enjoy meta tag generation from Markdown files
+- Configurable prose components with [Nuxt Typography](https://typography.nuxt.space)
 - Generated navigation based on your pages
 - Switch between Light & Dark mode :moon:
-- Access 100,000 icons from 100+ icon sets with the [`<Icon>` component](https://github.com/Atinux/nuxt-icon)
+- Access 100,000 icons from 100+ icon sets with the `<Icon>` component
 - Highlight code blocks with [Shiki](https://shiki.matsu.io)
-- Create Vue components in `components/content/` and use them in your Markdown
+- Create Vue components and use them in Markdown
 - Deploy on any Node or Static hosting: GH Pages, Vercel, Netlify, Heroku, etc.
+- Live edit on [Nuxt Studio](https://nuxt.studio)
 
 ## Get started
 
