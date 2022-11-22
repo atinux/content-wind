@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/Atinux/content-wind/compare/v0.2.9...v0.3.0) (2022-11-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* move to Nuxt Typography (#34)
+
+### Features
+
+* move to Nuxt Typography ([#34](https://github.com/Atinux/content-wind/issues/34)) ([70e765f](https://github.com/Atinux/content-wind/commit/70e765f892acb86d1bdf8310f82242a25541072d))
+
 ### [0.2.9](https://github.com/Atinux/content-wind/compare/v0.2.8...v0.2.9) (2022-11-16)
 
 ### [0.2.8](https://github.com/Atinux/content-wind/compare/v0.2.7...v0.2.8) (2022-11-03)
