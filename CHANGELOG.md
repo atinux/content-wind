@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.2](https://github.com/Atinux/content-wind/compare/v0.3.1...v0.3.2) (2022-11-29)
+
+
+### Bug Fixes
+
+* include nuxt.schema ([206471e](https://github.com/Atinux/content-wind/commit/206471e2b617a81e1815288865446f886304b206))
+
 ### [0.3.1](https://github.com/Atinux/content-wind/compare/v0.3.0...v0.3.1) (2022-11-29)
 
 
