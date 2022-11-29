@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/Atinux/content-wind/compare/v0.3.0...v0.3.1) (2022-11-29)
+
+
+### Features
+
+* leverage nuxt.schema for app.config definition ([a75f304](https://github.com/Atinux/content-wind/commit/a75f304e9bd3fed3a94b3db9c847c1cc5c9699f5))
+
+
+### Bug Fixes
+
+* overflow for MarkdownBlock ([5bfef01](https://github.com/Atinux/content-wind/commit/5bfef010d7299426fb0499f038cde81b34966b52))
+
 ## [0.3.0](https://github.com/Atinux/content-wind/compare/v0.2.9...v0.3.0) (2022-11-22)
 
 
