@@ -22,10 +22,10 @@
     "tailwind.config.ts"
   ],
   "dependencies": {
-    "@nuxt-themes/typography": "^0.0.22",
+    "@nuxt-themes/typography": "^0.0.25",
     "@nuxt/content": "^2.2.2",
-    "@nuxthq/studio": "^0.2.6",
-    "@nuxtjs/color-mode": "^3.1.8",
+    "@nuxthq/studio": "^0.3.0",
+    "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.1.3",
     "nuxt-icon": "^0.1.7"
   },
@@ -35,5 +35,8 @@
     "nuxt": "^3.0.0",
     "standard-version": "^9.5.0",
     "typescript": "^4.9.3"
+  },
+  "resolutions": {
+    "pinceau": "^0.6.24"
   }
 }
