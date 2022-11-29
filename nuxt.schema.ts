@@ -5,7 +5,12 @@ export default defineNuxtConfigSchema({
       /** Twitter handle */
       twitter: '',
       /** Github repository name */
-      github: '',
+      github: ''
+    },
+    // For testing
+    number: {
+      $resolve: val => parseFloat(val),
+      $default: '9.8'
     }
   }
 })
