@@ -1,13 +1,4 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json",
-  "compilerOptions": {
-    "paths": {
-      "#imports": ["./.demo/.nuxt/imports.d.ts"],
-      "#pinceau/types": ["./.demo/.nuxt/pinceau/types.ts"]
-    }
-  },
-  "include": [
-    ".demo/**/*"
-  ]
+  "extends": "./.demo/.nuxt/tsconfig.json"
 }
