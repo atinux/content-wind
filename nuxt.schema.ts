@@ -2,10 +2,19 @@ export default defineNuxtConfigSchema({
   appConfig: {
     /** Default OG image path */
     cover: '/cover.jpg',
+    /**
+     * Social media icons displayed in the navbar
+     */
     socials: {
-      /** Twitter handle */
+      /**
+       * Twitter handle
+       * @example 'Atinux'
+       * */
       twitter: '',
-      /** Github repository name */
+      /**
+       * Github repository name
+       * @example 'nuxt/framework'
+       * */
       github: ''
     }
   }
