@@ -6,8 +6,8 @@ overrides:
 specifiers:
   '@nuxt-themes/typography': ^0.1.3
   '@nuxt/content': ^2.2.2
-  '@nuxt/eslint-config': ^0.1.0
-  '@nuxthq/studio': ^0.3.2
+  '@nuxt/eslint-config': ^0.1.1
+  '@nuxthq/studio': ^0.3.3
   '@nuxtjs/color-mode': ^3.2.0
   '@nuxtjs/tailwindcss': ^6.1.3
   eslint: ^8.29.0
@@ -20,14 +20,14 @@ specifiers:
 dependencies:
   '@nuxt-themes/typography': 0.1.3
   '@nuxt/content': 2.2.2
-  '@nuxthq/studio': 0.3.2
+  '@nuxthq/studio': 0.3.3
   '@nuxtjs/color-mode': 3.2.0
   '@nuxtjs/tailwindcss': 6.1.3
   nuxt-config-schema: 0.3.4
   nuxt-icon: 0.1.8
 
 devDependencies:
-  '@nuxt/eslint-config': 0.1.0_eslint@8.29.0
+  '@nuxt/eslint-config': 0.1.1_eslint@8.29.0
   eslint: 8.29.0
   nuxt: 3.0.0_s5ps7njkmjlaqajutnox5ntcla
   release-it: 15.5.1
@@ -576,8 +576,8 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/eslint-config/0.1.0_eslint@8.29.0:
-    resolution: {integrity: sha512-YzuaFgR3O/h5orgTOzHngUC+lq+PlD0uiikJaVHDzUcCdQBBcWYrgaRws1sbUnyI4ujtN+p0oKl7Pt3D53SjCA==}
+  /@nuxt/eslint-config/0.1.1_eslint@8.29.0:
+    resolution: {integrity: sha512-znm1xlbhldUubB2XGx6Ca5uarwlIieKf0o8CtxtF6eEauDbpa3T2p3JnTcdguMW2nj1YPneoGmhshANfOlghiQ==}
     peerDependencies:
       eslint: ^8.29.0
     dependencies:
@@ -787,13 +787,13 @@ packages:
       - vti
     dev: true
 
-  /@nuxthq/studio/0.3.2:
-    resolution: {integrity: sha512-AA4gQBFMfT2AJowjA1QSI6prdHgm5mKDL8Xulwb1BF2mhjjrpzwUh+5zpw66eAJOozHQGsogvCuLfxkdn2lDjQ==}
+  /@nuxthq/studio/0.3.3:
+    resolution: {integrity: sha512-PBH+NYSp8bOlyyuL7bZGQsl+Pl/6wvQh+puLKDKDwTBgwq+AzNZ8nIjetIhUYbnZe0TbyFDDutL0qzD+gItNbQ==}
     dependencies:
       '@nuxt/kit': 3.0.0
       '@nuxt/schema': 3.0.0
       defu: 6.1.1
-      nuxt-component-meta: 0.3.5
+      nuxt-component-meta: 0.3.8
       nuxt-config-schema: 0.3.4
       socket.io-client: 4.5.4
       ufo: 1.0.1
@@ -5708,8 +5708,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /nuxt-component-meta/0.3.5:
-    resolution: {integrity: sha512-1pknzvuZWpj8qASTqJo6mC4KDX1/qRgk68FchzoRVIoxgisrgQ0/dlWDj/XZ+1HTecxZufTWc5ckrPUzZgWkQg==}
+  /nuxt-component-meta/0.3.8:
+    resolution: {integrity: sha512-r1nQ7aKE7ib4YYjSTmqnoGaMNtlqOLvVkGcGPqn5kKJEaWssmAdk6ahzHByV/SRS5+NVEwFIB3GpKCVP1A58DQ==}
     dependencies:
       '@nuxt/kit': 3.0.0
       scule: 1.0.0
