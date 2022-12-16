@@ -6,7 +6,7 @@ logger.success(`Using Content Wind v${version}`)
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   extends: [
-    '@nuxt-themes/typography',
+    process.env.TYPOGRAPHY_THEME || '@nuxt-themes/typography',
     '@nuxt-themes/elements'
   ],
   modules: [
