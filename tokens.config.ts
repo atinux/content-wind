@@ -14,6 +14,11 @@ export default defineTheme({
         backgroundColor: {
           dark: colors.gray['900']
         }
+      },
+      inline: {
+        backgroundColor: {
+          dark: colors.gray['900']
+        }
       }
     }
   }
