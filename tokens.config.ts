@@ -4,7 +4,7 @@ import colors from 'tailwindcss/colors'
 // See Typography config on https://github.com/nuxt-themes/typography/blob/main/tokens.config.ts
 export default defineTheme({
   typography: {
-    colors: {
+    color: {
       secondary: colors.gray
     }
   },
@@ -12,11 +12,13 @@ export default defineTheme({
     code: {
       block: {
         backgroundColor: {
+          light: colors.gray['50'],
           dark: colors.gray['900']
         }
       },
       inline: {
         backgroundColor: {
+          light: colors.gray['100'],
           dark: colors.gray['900']
         }
       }
