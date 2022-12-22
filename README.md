@@ -6,6 +6,7 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Use this template][use-template-src]][use-template-href]
+[![Volta][volta-src]][volta-href]
 
 A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), [Iconify](https://iconify.design) and [Vue components](https://vuejs.org).
 
@@ -46,14 +47,17 @@ Then follow the instructions and you are ready to go :rocket:
 [MIT License](./LICENSE)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/content-wind/latest.svg?style=flat&colorA=002438&colorB=28CF8D
+[npm-version-src]: https://img.shields.io/npm/v/content-wind/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-version-href]: https://npmjs.com/package/content-wind
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/content-wind.svg?style=flat&colorA=002438&colorB=28CF8D
+[npm-downloads-src]: https://img.shields.io/npm/dt/content-wind.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-downloads-href]: https://npmjs.com/package/content-wind
 
-[license-src]: https://img.shields.io/github/license/Atinux/content-wind.svg?style=flat&colorA=002438&colorB=28CF8D
+[license-src]: https://img.shields.io/github/license/Atinux/content-wind.svg?style=flat&colorA=18181B&colorB=28CF8D
 [license-href]: https://github.com/Atinux/content-wind/blob/main/LICENSE
 
-[use-template-src]: https://img.shields.io/badge/⚡️-Use%20this%20template-28CF8D?style=flat&colorA=002438&colorB=28CF8D
+[use-template-src]: https://img.shields.io/badge/⚡️-Use%20this%20template-28CF8D?style=flat&colorA=18181B&colorB=28CF8D
 [use-template-href]: https://github.com/Atinux/content-wind-template/generate
+
+[volta-src]: https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg
+[volta-href]: https://volta.net/Atinux/content-wind?utm_source=readme_atinux_content_wind
