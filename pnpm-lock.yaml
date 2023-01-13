@@ -11,7 +11,7 @@ specifiers:
   eslint: ^8.31.0
   nuxt: ^3.0.0
   nuxt-config-schema: ^0.4.1
-  nuxt-icon: ^0.2.0
+  nuxt-icon: ^0.2.1
   release-it: ^15.6.0
   typescript: ^4.9.4
 
@@ -23,7 +23,7 @@ dependencies:
   '@nuxtjs/color-mode': 3.2.0
   '@nuxtjs/tailwindcss': 6.2.0
   nuxt-config-schema: 0.4.1
-  nuxt-icon: 0.2.0
+  nuxt-icon: 0.2.1
 
 devDependencies:
   '@nuxt/eslint-config': 0.1.1_eslint@8.31.0
@@ -5963,11 +5963,13 @@ packages:
       - vue
     dev: false
 
-  /nuxt-icon/0.2.0:
-    resolution: {integrity: sha512-Oj2E5eC3rgSy9+z2p67bTCGivit7PbjXy7+kYQoSXoj2RJ9Q4C2bXjb3nvZLlEdPSzadU99IkDjOcWcfUCD5tQ==}
+  /nuxt-icon/0.2.1:
+    resolution: {integrity: sha512-nmfuQEBVXG89CSEHCEDsGMq1ydROLw8E5F7fvChmGuc3jvgkkB1B/00Q7M7I4PBZi8Y5Mgxy1J+tTWkO2ShdVQ==}
     dependencies:
       '@iconify/vue': 4.0.2
       '@nuxt/kit': 3.0.0
+      nuxt-config-schema: 0.4.1
+      untyped: 1.2.1
     transitivePeerDependencies:
       - rollup
       - supports-color
