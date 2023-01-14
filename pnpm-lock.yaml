@@ -11,7 +11,7 @@ specifiers:
   eslint: ^8.31.0
   nuxt: npm:nuxt3@latest
   nuxt-config-schema: ^0.4.2
-  nuxt-icon: ^0.2.4
+  nuxt-icon: ^0.2.5
   release-it: ^15.6.0
   typescript: ^4.9.4
 
@@ -23,7 +23,7 @@ dependencies:
   '@nuxtjs/color-mode': 3.2.0
   '@nuxtjs/tailwindcss': 6.2.0
   nuxt-config-schema: 0.4.2
-  nuxt-icon: 0.2.4
+  nuxt-icon: 0.2.5
 
 devDependencies:
   '@nuxt/eslint-config': 0.1.1_eslint@8.31.0
@@ -4379,7 +4379,7 @@ packages:
     dependencies:
       dir-glob: 3.0.1
       fast-glob: 3.2.12
-      ignore: 5.2.1
+      ignore: 5.2.4
       merge2: 1.4.1
       slash: 4.0.0
 
@@ -4708,7 +4708,6 @@ packages:
   /ignore/5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
     engines: {node: '>= 4'}
-    dev: true
 
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
@@ -6330,8 +6329,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-icon/0.2.4:
-    resolution: {integrity: sha512-nuuCuFS6ibVPfXBCK8EWsYlSed0CAvZVW3GMpl7vgdT/1pdBoIwSSfdjvGhIZQ0B0BCZkpx4L3BhdvYpAy9sog==}
+  /nuxt-icon/0.2.5:
+    resolution: {integrity: sha512-GCdWlunR6436vsM9mUmwtFrUpe/qRBaaDueixB4h+rAHzvyL0TL/dQYIdpRCoudaRuC6wFvxbo763EA4usdIog==}
     dependencies:
       '@iconify/vue': 4.0.2
       '@nuxt/kit': 3.0.0
