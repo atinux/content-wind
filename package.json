@@ -30,13 +30,13 @@
     "@nuxthq/studio": "^0.5.4",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.2.0",
-    "nuxt-config-schema": "^0.4.1",
-    "nuxt-icon": "^0.2.3"
+    "nuxt-config-schema": "^0.4.2",
+    "nuxt-icon": "^0.2.4"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
     "eslint": "^8.31.0",
-    "nuxt": "^3.0.0",
+    "nuxt": "npm:nuxt3@latest",
     "release-it": "^15.6.0",
     "typescript": "^4.9.4"
   },
