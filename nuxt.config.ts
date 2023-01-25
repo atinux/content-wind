@@ -7,7 +7,6 @@ logger.success(`Using Content Wind v${version}`)
 export default defineNuxtConfig({
   extends: [
     process.env.TYPOGRAPHY_THEME || '@nuxt-themes/typography',
-    '@nuxt-themes/elements'
   ],
   modules: [
     '@nuxt/content',
