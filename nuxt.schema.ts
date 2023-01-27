@@ -1,4 +1,4 @@
-export default defineNuxtConfigSchema({
+export default defineNuxtSchema({
   appConfig: {
     /** Default OG image path */
     cover: '/cover.jpg',
