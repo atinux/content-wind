@@ -15,7 +15,8 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-icon',
     'nuxt-config-schema',
-    '@nuxthq/studio'
+    '@nuxthq/studio',
+    '@nuxt/devtools-edge'
   ],
   // https://color-mode.nuxtjs.org
   colorMode: {
