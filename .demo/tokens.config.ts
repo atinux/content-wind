@@ -1,5 +1,5 @@
 import { defineTheme, palette } from 'pinceau'
-import nuxtThemeTokens from '@nuxt-themes/tokens/tokens'
+import nuxtThemeTokens from '@nuxt-themes/tokens/config'
 
 export default defineTheme({
   color: {
