@@ -5,7 +5,8 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
-[![Use this template][use-template-src]][use-template-href]
+[![Nuxt][nuxt-src]][nuxt-href]
+[![Nuxt Studio][nuxt-studio-src]][nuxt-studio-href]
 [![Volta][volta-src]][volta-href]
 
 A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), [Iconify](https://iconify.design) and [Vue components](https://vuejs.org).
@@ -58,6 +59,12 @@ Then follow the instructions and you are ready to go :rocket:
 
 [use-template-src]: https://img.shields.io/badge/⚡️-Use%20this%20template-28CF8D?style=flat&colorA=18181B&colorB=28CF8D
 [use-template-href]: https://github.com/Atinux/content-wind-template/generate
+
+[nuxt-studio-src]: https://img.shields.io/badge/Open%20in%20Nuxt%20Studio-18181B?&logo=nuxt.js&logoColor=3BB5EC
+[nuxt-studio-href]: https://nuxt.studio/templates/content-wind
+
+[nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?&logo=nuxt.js
+[nuxt-href]: https://nuxt.com
 
 [volta-src]: https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg
 [volta-href]: https://volta.net/Atinux/content-wind?utm_source=readme_atinux_content_wind
