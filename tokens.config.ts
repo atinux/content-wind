@@ -12,13 +12,13 @@ export default defineTheme({
     code: {
       block: {
         backgroundColor: {
-          light: colors.gray['50'],
+          initial: colors.gray['50'],
           dark: colors.gray['900']
         }
       },
       inline: {
         backgroundColor: {
-          light: colors.gray['100'],
+          initial: colors.gray['100'],
           dark: colors.gray['900']
         }
       }
