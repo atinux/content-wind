@@ -1,8 +1,3 @@
-import { logger } from '@nuxt/kit'
-import { version } from './package.json'
-
-logger.success(`Using Content Wind v${version}`)
-
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   extends: [

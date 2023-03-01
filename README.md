@@ -12,7 +12,7 @@
 A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), [Iconify](https://iconify.design) and [Vue components](https://vuejs.org).
 
 - 📖&nbsp; [Demo & Docs](https://content-wind.nuxt.space)
-- 🕹&nbsp; [Play online](https://stackblitz.com/github/Atinux/content-wind-template)
+- 🕹&nbsp; [Play online](https://githubblitz.com/Atinux/content-wind/tree/main/.demo)
 - 👀&nbsp; [Demo video](https://twitter.com/Atinux/status/1578505586979012608)
 
 ## Features
@@ -31,17 +31,17 @@ A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), 
 
 ## Get started
 
-Duplicate the GitHub template: [Atinux/content-wind-template](https://github.com/Atinux/content-wind-template)
-
-**Or**
-
-Start locally:
+### Local
 
 ```bash
 npx nuxi@latest init -t themes/content-wind my-website
 ```
 
 Then follow the instructions and you are ready to go :rocket:
+
+### Online
+
+Get started online on https://nuxt.studio/templates/content-wind
 
 ## License 📎
 
