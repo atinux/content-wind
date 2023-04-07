@@ -15,6 +15,6 @@ const { cover } = useAppConfig()
 
 <style lang="postcss">
 body {
-  @apply bg-primary-50 dark:bg-primary-900;
+  @apply bg-primary-50 text-black dark:bg-primary-900 dark:text-white;
 }
 </style>
