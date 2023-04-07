@@ -41,7 +41,7 @@ Then follow the instructions and you are ready to go :rocket:
 
 ### Online
 
-Get started online on https://nuxt.studio/templates/content-wind
+Get started online on https://nuxt.studio/themes/content-wind
 
 ## License 📎
 
