@@ -23,8 +23,8 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0(rollup@3.21.0)
       '@nuxtjs/tailwindcss':
-        specifier: ^6.6.6
-        version: 6.6.6(rollup@3.21.0)(webpack@5.80.0)
+        specifier: ^6.6.7
+        version: 6.6.7(rollup@3.21.0)(webpack@5.80.0)
       nuxt-config-schema:
         specifier: ^0.4.6
         version: 0.4.6(rollup@3.21.0)
@@ -1080,8 +1080,8 @@ packages:
       - supports-color
     dev: false
 
-  /@nuxtjs/tailwindcss@6.6.6(rollup@3.21.0)(webpack@5.80.0):
-    resolution: {integrity: sha512-cUiwO28TQYww+2H8x1BtxGjYpzzAdiHi2S4z6seGDM0g0sv5P1Zn8VO6N9crSxNkAZjKVhof9CD+D8ykMloZbA==}
+  /@nuxtjs/tailwindcss@6.6.7(rollup@3.21.0)(webpack@5.80.0):
+    resolution: {integrity: sha512-WxkvOH05YURffpPBjtHavwY/nu13+u90tTj2rHdTQ3CcvWcnKZ9e2q7NjIrz5sopkuRYNGtKnSZa3eA9iTk0Og==}
     dependencies:
       '@nuxt/kit': 3.4.2(rollup@3.21.0)
       '@nuxt/postcss8': 1.1.3(webpack@5.80.0)
@@ -1093,7 +1093,7 @@ packages:
       defu: 6.1.2
       destr: 1.2.2
       h3: 1.6.4
-      iron-webcrypto: 0.6.0
+      iron-webcrypto: 0.7.0
       pathe: 1.1.0
       postcss: 8.4.23
       postcss-custom-properties: 13.1.5(postcss@8.4.23)
@@ -4533,6 +4533,10 @@ packages:
 
   /iron-webcrypto@0.6.0:
     resolution: {integrity: sha512-WYgEQttulX/+JTv1BTJFYY3OsAb+ZnCuA53IjppZMyiRsVdGeEuZ/k4fJrg77Rzn0pp9/PgWtXUF+5HndDA5SQ==}
+
+  /iron-webcrypto@0.7.0:
+    resolution: {integrity: sha512-WkX32iTcwd79ZsWRPP5wq1Jq6XXfPwO783ZiUBY8uMw4/AByx5WvBmxvYGnpVt6AOVJ0F41Qo420r8lIneT9Wg==}
+    dev: false
 
   /is-absolute-url@4.0.1:
     resolution: {integrity: sha512-/51/TKE88Lmm7Gc4/8btclNXWS+g50wXhYJq8HWIBAGUBnoAdRu1aXeh364t/O7wXDAcTJDP8PNuNKWUDWie+A==}
