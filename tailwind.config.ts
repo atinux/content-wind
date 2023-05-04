@@ -1,12 +1,7 @@
-import colors from 'tailwindcss/colors'
+import type { Config } from 'tailwindcss'
+import typography from '@tailwindcss/typography'
 
-export default {
+export default <Partial<Config>>{
   darkMode: 'class',
-  theme: {
-    extend: {
-      colors: {
-        primary: colors.gray
-      }
-    }
-  }
+  plugins: [typography]
 }
