@@ -28,7 +28,7 @@
     "@nuxt-themes/tokens": "^1.9.1",
     "@nuxt-themes/typography": "^0.11.0",
     "@nuxt/content": "^2.6.0",
-    "@nuxthq/studio": "^0.11.0",
+    "@nuxthq/studio": "^0.12.0",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.6.7",
     "nuxt-config-schema": "^0.4.6",
@@ -36,10 +36,10 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
-    "@types/node": "^18.16.1",
+    "@types/node": "^18.16.3",
     "eslint": "^8.39.0",
-    "nuxt": "^3.4.2",
-    "release-it": "^15.10.1",
+    "nuxt": "^3.4.3",
+    "release-it": "^15.10.3",
     "typescript": "^5.0.4"
   },
   "release-it": {
