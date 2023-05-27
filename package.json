@@ -32,13 +32,13 @@
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.7.0",
     "nuxt-config-schema": "^0.4.6",
-    "nuxt-icon": "^0.4.0"
+    "nuxt-icon": "^0.4.1"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
     "@types/node": "^20.1.1",
-    "eslint": "^8.40.0",
-    "nuxt": "^3.4.3",
+    "eslint": "^8.41.0",
+    "nuxt": "^3.5.1",
     "release-it": "^15.10.3",
     "typescript": "^5.0.4"
   },
