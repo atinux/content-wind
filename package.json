@@ -31,7 +31,6 @@
     "@nuxthq/studio": "^0.13.2",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.7.0",
-    "nuxt-config-schema": "^0.4.6",
     "nuxt-icon": "^0.4.1"
   },
   "devDependencies": {
