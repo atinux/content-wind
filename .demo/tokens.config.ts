@@ -3,6 +3,7 @@ import colors from 'tailwindcss/colors'
 
 export default defineTheme({
   color: {
-    primary: colors.teal
+    primary: colors.teal,
+    secondary: colors.gray
   }
 })
