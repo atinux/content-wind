@@ -7,7 +7,7 @@ const { cover } = useAppConfig()
     <Html lang="en" />
     <Meta property="og:image" :content="cover" />
     <Meta name="twitter:card" content="summary_large_image" />
-    <AppLoadingBar />
+    <NuxtLoadingIndicator />
     <AppNavbar />
     <slot />
   </div>
