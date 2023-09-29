@@ -7,7 +7,7 @@ const { cover } = useAppConfig()
     <Html lang="en" />
     <Meta property="og:image" :content="cover" />
     <Meta name="twitter:card" content="summary_large_image" />
-    <AppLoadingBar />
+    <NuxtLoadingIndicator />
     <AppNavbar />
     <slot />
   </div>
@@ -15,6 +15,6 @@ const { cover } = useAppConfig()
 
 <style lang="postcss">
 body {
-  @apply bg-primary-50 text-black dark:bg-primary-900 dark:text-white;
+  @apply bg-gray-50 text-black dark:bg-gray-900 dark:text-white;
 }
 </style>
