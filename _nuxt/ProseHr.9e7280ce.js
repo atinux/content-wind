@@ -1,1 +1,0 @@
-import{l as e,b as _,c as r}from"./entry.ec7391a7.js";const s={},c={class:"prose-hr"};function o(t,n){return _(),r("hr",c)}const d=e(s,[["render",o],["__scopeId","data-v-72618ec0"]]);export{d as default};

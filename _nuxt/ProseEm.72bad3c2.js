@@ -1,1 +1,0 @@
-import{l as s,b as t,c as _,a0 as o}from"./entry.ec7391a7.js";const r={},c={class:"prose-em"};function n(e,a){return t(),_("em",c,[o(e.$slots,"default",{},void 0,!0)])}const f=s(r,[["render",n],["__scopeId","data-v-710323fc"]]);export{f as default};
