@@ -1,7 +1,8 @@
 export default defineAppConfig({
   socials: {
     twitter: '',
-    github: ''
+    github: '',
+    mastodon: '',
   },
   nuxtIcon: {
     aliases: {
