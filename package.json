@@ -36,7 +36,7 @@
     "@types/node": "^20.8.3",
     "eslint": "^8.51.0",
     "nuxt": "^3.7.4",
-    "release-it": "^16.2.1",
+    "release-it": "^17.0.1",
     "typescript": "^5.2.2"
   },
   "release-it": {
