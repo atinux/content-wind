@@ -8,8 +8,8 @@ importers:
         specifier: ^2.11.0
         version: 2.11.0(nuxt@3.9.3)(vue@3.4.15)
       '@nuxthq/studio':
-        specifier: ^1.0.9
-        version: 1.0.9
+        specifier: ^1.0.10
+        version: 1.0.10
       '@nuxtjs/color-mode':
         specifier: ^3.3.2
         version: 3.3.2
@@ -1219,8 +1219,8 @@ packages:
       - vti
       - vue-tsc
 
-  /@nuxthq/studio@1.0.9:
-    resolution: {integrity: sha512-k8qK+9RLET5LQxRKdPTE2pxAYdK/fXXhnILSkV5i7WxhKwpl6KzZa3oNzqc4ccOVyKWti+95UjV7IkMktBmTrA==}
+  /@nuxthq/studio@1.0.10:
+    resolution: {integrity: sha512-F0Gd4H/YfsVorg0EZ5+++/pG7WC8S9jvWg4CNQH0ZZXCcqFE6cSvxExtkfjJEDLEswp2OYLF8tCSkrYVQsFQqQ==}
     dependencies:
       '@nuxt/kit': 3.9.3
       defu: 6.1.4
