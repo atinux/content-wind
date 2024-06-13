@@ -1,3 +1,6 @@
 export default defineNuxtConfig({
-  extends: 'content-wind'
+  extends: 'content-wind',
+  routeRules: {
+    '/': { prerender: true }
+  }
 })
