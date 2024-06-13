@@ -25,18 +25,18 @@
   ],
   "dependencies": {
     "@nuxt/content": "^2.12.1",
-    "@nuxthq/studio": "^1.0.13",
-    "@nuxtjs/color-mode": "^3.4.0",
+    "@nuxthq/studio": "^2.0.0",
+    "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/tailwindcss": "^6.12.0",
-    "@tailwindcss/typography": "^0.5.12",
+    "@tailwindcss/typography": "^0.5.13",
     "nuxt-icon": "^0.6.10"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.3.9",
-    "@types/node": "^20.12.7",
+    "@nuxt/eslint-config": "^0.3.13",
+    "@types/node": "^20.14.2",
     "eslint": "^8.57.0",
-    "nuxt": "^3.11.2",
-    "release-it": "^17.2.0",
+    "nuxt": "^3.12.1",
+    "release-it": "^17.3.0",
     "typescript": "^5.4.5"
   },
   "release-it": {
