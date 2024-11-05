@@ -1,4 +1,8 @@
 <script setup lang="ts">
+/**
+ * Document driven is removed in Content v3.
+ * This page is a simple/full-feature replacement of document driven.
+ */
 import type { LayoutKey } from '#build/types/layouts';
 
 const route = useRoute()
