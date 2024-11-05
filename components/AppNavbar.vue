@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { navigation } = useContent()
+const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('content'))
 const appConfig = useAppConfig()
 </script>
 
@@ -9,8 +9,8 @@ const appConfig = useAppConfig()
     <div class="text-gray-700 dark:text-gray-200">
       <NuxtLink
         v-for="link of navigation"
-        :key="link._path"
-        :to="link._path"
+        :key="link.path"
+        :to="link.path"
         active-class="font-bold"
         class="mr-6"
       >

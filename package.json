@@ -24,7 +24,7 @@
     "tailwind.config.ts"
   ],
   "dependencies": {
-    "@nuxt/content": "^2.12.1",
+    "@nuxt/content": "https://pkg.pr.new/@nuxt/content@705aab7",
     "@nuxthq/studio": "^2.0.0",
     "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/tailwindcss": "^6.12.0",
@@ -34,6 +34,7 @@
   "devDependencies": {
     "@nuxt/eslint-config": "^0.3.13",
     "@types/node": "^20.14.2",
+    "content-wind": "link:.",
     "eslint": "^8.57.0",
     "nuxt": "^3.12.1",
     "release-it": "^17.3.0",
