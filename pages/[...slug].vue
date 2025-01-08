@@ -11,7 +11,7 @@ const { data } = await useAsyncData(route.path, () => {
   return queryCollection('content').path(route.path).first()
 })
 
-useContentHead(data.value)
+useSeoMeta(data.value?.seo || {})
 </script>
 
 <template>
