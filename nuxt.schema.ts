@@ -8,23 +8,23 @@ export default defineNuxtSchema({
     socials: {
       /**
        * Twitter handle
-       * 
+       *
        * @example 'Atinux'
        * @studioIcon simple-icons:twitter
-       * */
+       */
       twitter: '',
       /**
        * Github repository name
        * @example 'nuxt/framework'
        * @studioIcon simple-icons:github
-       * */
+       */
       github: '',
       /**
        * Mastodon handle
        * @example '@nuxt@webtoo.ls'
        * @studioIcon simple-icons:mastodon
-       * */
-      mastodon: ''
-    }
-  }
+       */
+      mastodon: '',
+    },
+  },
 })

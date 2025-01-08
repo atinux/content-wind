@@ -4,12 +4,12 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    'nuxt-icon'
+    'nuxt-icon',
     // '@nuxthq/studio'
   ],
   // https://color-mode.nuxtjs.org
   colorMode: {
-    classSuffix: ''
+    classSuffix: '',
   },
   // https://content.nuxtjs.org
   content: {
@@ -19,10 +19,10 @@ export default defineNuxtConfig({
           // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
           theme: {
             dark: 'github-dark',
-            default: 'github-light'
-          }
-        }
-      }
+            default: 'github-light',
+          },
+        },
+      },
     },
-  }
+  },
 })

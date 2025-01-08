@@ -35,6 +35,7 @@
     "@nuxt/eslint-config": "^0.7.4",
     "@types/node": "^22.10.5",
     "eslint": "^9.17.0",
+    "mdclint": "^0.0.2",
     "nuxt": "^3.15.1",
     "release-it": "^18.0.0",
     "typescript": "^5.7.2"

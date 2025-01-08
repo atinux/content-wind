@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: colors.emerald
-      }
-    }
-  }
+        primary: colors.emerald,
+      },
+    },
+  },
 }
