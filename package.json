@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.3.13",
-    "@types/node": "^20.14.2",
+    "@types/node": "^22.13.4",
     "eslint": "^8.57.0",
     "nuxt": "^3.12.1",
     "release-it": "^17.3.0",
