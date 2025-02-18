@@ -26,7 +26,7 @@
     "tailwind.config.ts"
   ],
   "dependencies": {
-    "@nuxt/content": "https://pkg.pr.new/@nuxt/content@2957",
+    "@nuxt/content": "^3.1.1",
     "@nuxthq/studio": "^2.2.1",
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/tailwindcss": "^6.12.2",
@@ -50,5 +50,6 @@
       "release": true,
       "releaseName": "v${version}"
     }
-  }
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }
