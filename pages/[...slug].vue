@@ -7,7 +7,7 @@ import type { LayoutKey } from '#build/types/layouts'
 
 const route = useRoute()
 
-const { data } = await useAsyncData(route.path, () => {
+const { data } = await useAsyncData(`page-${route.params.slug}`, () => {
   return queryCollection('content').path(route.path).first()
 })
 
