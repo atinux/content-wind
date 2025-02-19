@@ -1,55 +1,32 @@
 {
   "name": "content-wind",
+  "description": "A personal website theme powered by Nuxt Content, TailwindCSS, Iconify and Vue components.",
   "private": false,
-  "version": "1.1.2",
+  "version": "2.0.0",
   "main": "nuxt.config.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "nuxi dev .demo",
-    "build": "nuxi build .demo",
-    "generate": "nuxi generate .demo",
-    "preview": "nuxi preview .demo",
-    "lint": "eslint .",
-    "prepublishOnly": "pnpm lint",
-    "release": "release-it"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "lint": "eslint ."
   },
-  "files": [
-    "app/",
-    "components/",
-    "layouts/",
-    "pages/",
-    "app.vue",
-    "content.config.ts",
-    "app.config.ts",
-    "nuxt.config.ts",
-    "nuxt.schema.ts",
-    "tailwind.config.ts"
-  ],
   "dependencies": {
+    "@iconify-json/lucide": "^1.2.26",
+    "@iconify-json/simple-icons": "^1.2.25",
     "@nuxt/content": "^3.1.1",
-    "@nuxthq/studio": "^2.2.1",
+    "@nuxt/icon": "^1.10.3",
     "@nuxtjs/color-mode": "^3.5.2",
-    "@nuxtjs/tailwindcss": "^6.13.1",
     "@tailwindcss/typography": "^0.5.16",
-    "nuxt-icon": "^0.6.10"
+    "@tailwindcss/vite": "^4.0.7",
+    "nuxt": "^3.15.4",
+    "tailwindcss": "^4.0.7"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^1.1.0",
-    "@types/node": "^22.13.4",
+    "@nuxt/eslint": "^1.1.0",
     "eslint": "^9.20.1",
-    "mdclint": "^0.0.2",
-    "nuxt": "^3.15.4",
-    "release-it": "^18.1.2",
     "typescript": "^5.7.3"
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore(release): release v${version}"
-    },
-    "github": {
-      "release": true,
-      "releaseName": "v${version}"
-    }
   },
   "packageManager": "pnpm@10.4.1",
   "pnpm": {

@@ -1,16 +1,16 @@
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
-    '@nuxtjs/tailwindcss',
+    '@nuxt/icon',
+    '@nuxt/eslint',
     '@nuxtjs/color-mode',
-    'nuxt-icon',
   ],
-  // https://color-mode.nuxtjs.org
-  colorMode: {
-    classSuffix: '',
-  },
-  // https://content.nuxtjs.org
+
+  css: ['assets/css/main.css'],
+  colorMode: { classSuffix: '' },
+
   content: {
     build: {
       markdown: {
@@ -24,4 +24,10 @@ export default defineNuxtConfig({
       },
     },
   },
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2025-02-19',
+
+  vite: { plugins: [tailwindcss()] },
 })
