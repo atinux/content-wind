@@ -17,27 +17,30 @@
     "app/",
     "components/",
     "layouts/",
+    "pages/",
     "app.vue",
+    "content.config.ts",
     "app.config.ts",
     "nuxt.config.ts",
     "nuxt.schema.ts",
     "tailwind.config.ts"
   ],
   "dependencies": {
-    "@nuxt/content": "^2.12.1",
-    "@nuxthq/studio": "^2.0.0",
-    "@nuxtjs/color-mode": "^3.4.1",
-    "@nuxtjs/tailwindcss": "^6.12.0",
-    "@tailwindcss/typography": "^0.5.13",
+    "@nuxt/content": "^3.1.1",
+    "@nuxthq/studio": "^2.2.1",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@tailwindcss/typography": "^0.5.16",
     "nuxt-icon": "^0.6.10"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.3.13",
-    "@types/node": "^20.14.2",
-    "eslint": "^8.57.0",
-    "nuxt": "^3.12.1",
-    "release-it": "^17.3.0",
-    "typescript": "^5.4.5"
+    "@nuxt/eslint-config": "^1.1.0",
+    "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
+    "mdclint": "^0.0.2",
+    "nuxt": "^3.15.4",
+    "release-it": "^18.1.2",
+    "typescript": "^5.7.3"
   },
   "release-it": {
     "git": {
@@ -47,5 +50,14 @@
       "release": true,
       "releaseName": "v${version}"
     }
+  },
+  "packageManager": "pnpm@10.4.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild",
+      "vue-demi"
+    ]
   }
 }
