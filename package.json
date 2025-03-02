@@ -13,22 +13,22 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.26",
-    "@iconify-json/simple-icons": "^1.2.25",
-    "@nuxt/content": "^3.1.1",
+    "@iconify-json/lucide": "^1.2.28",
+    "@iconify-json/simple-icons": "^1.2.27",
+    "@nuxt/content": "^3.2.2",
     "@nuxt/icon": "^1.10.3",
     "@nuxtjs/color-mode": "^3.5.2",
     "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.0.7",
+    "@tailwindcss/vite": "^4.0.9",
     "nuxt": "^3.15.4",
-    "tailwindcss": "^4.0.7"
+    "tailwindcss": "^4.0.9"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.1.0",
-    "eslint": "^9.20.1",
-    "typescript": "^5.7.3"
+    "eslint": "^9.21.0",
+    "typescript": "^5.8.2"
   },
-  "packageManager": "pnpm@10.4.1",
+  "packageManager": "pnpm@10.5.2",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@parcel/watcher",
