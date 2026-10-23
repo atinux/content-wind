@@ -15,7 +15,7 @@
   "dependencies": {
     "@iconify-json/lucide": "^1.2.147",
     "@iconify-json/simple-icons": "^1.2.100",
-    "@nuxt/content": "^3.16.2",
+    "@nuxt/content": "https://pkg.pr.new/nuxt/content-v4-temp/@nuxt/content4@53ab72b",
     "@nuxt/fonts": "^1.1.0",
     "@nuxt/icon": "^2.5.1",
     "@nuxtjs/color-mode": "^4.0.1",
@@ -23,6 +23,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "@vercel/analytics": "^2.0.1",
     "nuxt": "^4.6.2",
+    "shiki": "^4.5.0",
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
