@@ -6,7 +6,7 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
 <template>
   <button
     aria-label="Color Mode"
-    class="inline-block size-4"
+    class="flex size-4"
     @click="onClick"
   >
     <ColorScheme placeholder="...">

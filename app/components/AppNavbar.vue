@@ -50,7 +50,7 @@ const appConfig = useAppConfig();
       >
         <Icon class="size-4" name="i-simple-icons-bluesky" />
       </a>
-      <ColorModeSwitch class="flex hover:text-ink dark:hover:text-ink-dark transition-colors" />
+      <ColorModeSwitch class="hover:text-ink dark:hover:text-ink-dark transition-colors" />
     </div>
   </div>
 </template>
