@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/eslint',
     '@nuxtjs/color-mode',
+    '@vercel/analytics/nuxt',
   ],
 
   css: ['assets/css/main.css'],
