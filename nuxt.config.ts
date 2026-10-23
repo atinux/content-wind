@@ -23,6 +23,7 @@ export default defineNuxtConfig({
         },
       },
     },
+    experimental: { sqliteConnector: 'native' },
   },
   future: {
     compatibilityVersion: 4,
