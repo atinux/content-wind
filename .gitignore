@@ -15,3 +15,6 @@ dist
 
 # Local History
 .history
+
+# Amp orb portals
+.amp/portals/*
