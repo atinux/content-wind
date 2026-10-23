@@ -4,10 +4,91 @@
 
 @source "../../../content/**/*";
 
-body {
-  @apply bg-gray-50 text-black dark:bg-gray-900 dark:text-white;
+/* Scandinavian palette: warm paper, soft ink and a muted fjord blue */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-paper: #f6f4ef;
+  --color-paper-dark: #191a1c;
+  --color-ink: #2b2a27;
+  --color-ink-dark: #e8e5de;
+  --color-muted: #7a766d;
+  --color-muted-dark: #9a968d;
+  --color-line: #e3dfd6;
+  --color-line-dark: #2e2f32;
+  --color-fjord: #46677e;
+  --color-fjord-dark: #9fbcd0;
 }
 
-.prose a:not(h2 a, h3 a, h4 a, h5 a, h6 a, button a) {
-  @apply text-indigo-500 dark:text-indigo-400;
+body {
+  @apply bg-paper text-ink antialiased dark:bg-paper-dark dark:text-ink-dark;
+}
+
+.prose {
+  --tw-prose-body: var(--color-ink);
+  --tw-prose-headings: var(--color-ink);
+  --tw-prose-lead: var(--color-muted);
+  --tw-prose-links: var(--color-fjord);
+  --tw-prose-bold: var(--color-ink);
+  --tw-prose-counters: var(--color-muted);
+  --tw-prose-bullets: #c4beb2;
+  --tw-prose-hr: var(--color-line);
+  --tw-prose-quotes: var(--color-ink);
+  --tw-prose-quote-borders: var(--color-line);
+  --tw-prose-captions: var(--color-muted);
+  --tw-prose-code: var(--color-ink);
+  --tw-prose-pre-code: var(--color-ink);
+  --tw-prose-pre-bg: #efece5;
+  --tw-prose-th-borders: var(--color-line);
+  --tw-prose-td-borders: var(--color-line);
+}
+
+.dark .prose {
+  --tw-prose-body: var(--color-ink-dark);
+  --tw-prose-headings: var(--color-ink-dark);
+  --tw-prose-lead: var(--color-muted-dark);
+  --tw-prose-links: var(--color-fjord-dark);
+  --tw-prose-bold: var(--color-ink-dark);
+  --tw-prose-counters: var(--color-muted-dark);
+  --tw-prose-bullets: #55565a;
+  --tw-prose-hr: var(--color-line-dark);
+  --tw-prose-quotes: var(--color-ink-dark);
+  --tw-prose-quote-borders: var(--color-line-dark);
+  --tw-prose-captions: var(--color-muted-dark);
+  --tw-prose-code: var(--color-ink-dark);
+  --tw-prose-pre-code: var(--color-ink-dark);
+  --tw-prose-pre-bg: #222326;
+  --tw-prose-th-borders: var(--color-line-dark);
+  --tw-prose-td-borders: var(--color-line-dark);
+}
+
+/* Light headings with tight tracking, generous air around them */
+.prose :where(h1, h2, h3, h4) {
+  @apply font-medium tracking-tight;
+}
+
+.prose :where(h1) {
+  @apply text-4xl sm:text-5xl mb-6;
+}
+
+/* Heading anchors stay quiet: no underline, inherit the heading color */
+.prose :where(h2, h3, h4, h5, h6) a {
+  @apply no-underline text-inherit;
+  font-weight: inherit;
+}
+
+.prose a:not(h2 a, h3 a, h4 a, h5 a, h6 a, .not-prose a) {
+  @apply font-normal underline decoration-1 underline-offset-4 decoration-fjord/40 dark:decoration-fjord-dark/40 hover:decoration-current transition-colors;
+}
+
+.prose :where(pre) {
+  @apply rounded-lg ring-1 ring-line dark:ring-line-dark;
+}
+
+.prose :where(:not(pre) > code) {
+  @apply font-normal rounded bg-line/60 px-1.5 py-0.5 dark:bg-line-dark before:content-none after:content-none;
+}
+
+.prose :where(img) {
+  @apply rounded-lg;
 }
