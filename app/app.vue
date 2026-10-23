@@ -8,7 +8,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="sm:pt-6 sm:pb-10">
+  <div class="pb-16 sm:pt-8 sm:pb-24">
     <Html lang="en" />
     <NuxtLoadingIndicator />
     <AppNavbar />

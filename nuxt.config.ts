@@ -5,12 +5,17 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/icon',
     '@nuxt/eslint',
+    '@nuxt/fonts',
     '@nuxtjs/color-mode',
     '@vercel/analytics/nuxt',
   ],
 
   css: ['assets/css/main.css'],
   colorMode: { classSuffix: '' },
+
+  fonts: {
+    families: [{ name: 'Inter', weights: [400, 500, 600], global: true }],
+  },
 
   content: {
     build: {
