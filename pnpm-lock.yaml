@@ -42,6 +42,9 @@ importers:
       eslint:
         specifier: ^10.13.0
         version: 10.13.0(jiti@2.7.0)
+      rolldown:
+        specifier: ^1.2.15
+        version: 1.2.15
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
