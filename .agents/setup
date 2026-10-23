@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Prepares an Amp orb: installs dependencies and generates .nuxt types.
+# Runs on fresh and stale snapshots, so every step must be idempotent.
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+step() {
+  local name="$1"
+  shift
+  echo "==> $name"
+  local start=$SECONDS
+  "$@"
+  echo "<== $name ($((SECONDS - start))s)"
+}
+
+# pnpm switches itself to the version pinned in package.json#packageManager.
+if ! command -v pnpm >/dev/null; then
+  step "enable pnpm via corepack" corepack enable pnpm
+fi
+
+step "pnpm install" pnpm install --frozen-lockfile
+# Generates .nuxt, which eslint.config.mjs and tsconfig.json extend.
+step "nuxi prepare" pnpm exec nuxi prepare
