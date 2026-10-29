@@ -8,7 +8,7 @@ import type { LayoutKey } from '#build/types/layouts'
 const route = useRoute()
 
 const { data: page } = await useAsyncData(`page-${route.params.slug}`, () => {
-  return queryCollection('content').path(route.path).first()
+  return content.get(route.path)
 })
 
 if (!page.value) {
@@ -18,11 +18,15 @@ if (!page.value) {
   })
 }
 
-useSeoMeta(page.value?.seo || {})
+useSeoMeta({
+  title: page.value.data.title,
+  description: page.value.data.description,
+  ogImage: page.value.data.image,
+})
 </script>
 
 <template>
-  <NuxtLayout :name="page?.layout as LayoutKey || 'default'">
+  <NuxtLayout :name="page?.data.layout as LayoutKey || 'default'">
     <ContentRenderer
       v-if="page"
       :value="page"

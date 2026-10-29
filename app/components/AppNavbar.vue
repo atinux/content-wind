@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { data: navigation } = await useAsyncData('navigation', () =>
-  queryCollectionNavigation('content'),
+  content.navigation(),
 );
 
 const appConfig = useAppConfig();
