@@ -21,9 +21,9 @@ const appConfig = useAppConfig();
     <!-- Social icons & Color Mode -->
     <div class="flex items-center gap-4 text-muted dark:text-muted-dark">
       <a
-        v-if="appConfig.socials?.twitter || appConfig.socials?.x"
+        v-if="appConfig.socials?.x"
         class="flex hover:text-ink dark:hover:text-ink-dark transition-colors"
-        :href="`https://x.com/${appConfig.socials?.twitter || appConfig.socials?.x}`"
+        :href="`https://x.com/${appConfig.socials.x}`"
         title="X"
       >
         <Icon class="size-4" name="i-simple-icons-x" />
