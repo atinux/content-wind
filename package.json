@@ -33,6 +33,9 @@
   },
   "packageManager": "pnpm@10.7.1",
   "pnpm": {
+    "overrides": {
+      "comark": "https://pkg.pr.new/comark@d6705ce"
+    },
     "onlyBuiltDependencies": [
       "@parcel/watcher",
       "better-sqlite3",
