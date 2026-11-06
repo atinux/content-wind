@@ -1,0 +1,52 @@
+name: bundle-size
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bundle-size-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+env:
+  NUXT_BUNDLE_ANALYZER_VERSION: 0.1.6
+
+jobs:
+  # Analyzes `main` and the PR side by side, compared and posted by `bundle-size-comment.yml`.
+  analyze:
+    name: analyze (${{ matrix.target }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    strategy:
+      matrix:
+        target: [base, pr]
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          # The base commit for `base`, the PR merged into it for `pr`.
+          ref: ${{ matrix.target == 'base' && github.event.pull_request.base.sha || '' }}
+      - uses: actions/setup-node@v6
+        with:
+          package-manager-cache: false
+          node-version: 24
+      # The pnpm version `packageManager` pins.
+      - run: npm i -g --force corepack && corepack enable
+      - run: pnpm install --frozen-lockfile
+      # With npx, so the analyzer needs no entry in the lockfile.
+      - name: Analyze the app
+        run: npx --yes "nuxt-bundle-analyzer@$NUXT_BUNDLE_ANALYZER_VERSION" --name ${{ matrix.target }} --no-serve
+        env:
+          NUXT_TELEMETRY_DISABLED: 1
+      - uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.target }}
+          path: node_modules/.cache/nuxt-bundle-analyzer/${{ matrix.target }}
+          if-no-files-found: error
+          retention-days: 7

@@ -1,0 +1,46 @@
+name: bundle-size-comment
+
+# Runs from the default branch with a write token, even for fork PRs: the runs it reads come from the PR's build and are
+# only parsed by nuxt-bundle-analyzer, never executed. GitHub only triggers `workflow_run` from the default branch, so
+# the first comment appears once this file is on `main`.
+on:
+  workflow_run:
+    workflows:
+      - bundle-size
+    types:
+      - completed
+
+permissions:
+  actions: read
+  contents: read
+  # Proves to bundle.nuxt.dev that the upload comes from this workflow on `main`.
+  id-token: write
+  pull-requests: write
+
+env:
+  NUXT_BUNDLE_ANALYZER_VERSION: 0.1.6
+
+jobs:
+  comment:
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      # Finds the PR of the triggering run, also from a fork, and posts the comment.
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - name: Download the runs
+        uses: actions/download-artifact@v8
+        with:
+          path: runs
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+      # The comment is still posted without the comparison link when this fails.
+      - name: Upload the runs to bundle.nuxt.dev
+        id: upload
+        continue-on-error: true
+        run: npx --yes "nuxt-bundle-analyzer@$NUXT_BUNDLE_ANALYZER_VERSION" upload --runs runs --url https://bundle.nuxt.dev
+      - name: Comment on the PR
+        run: npx --yes "nuxt-bundle-analyzer@$NUXT_BUNDLE_ANALYZER_VERSION" comment --runs runs --post --link "$LINK"
+        env:
+          LINK: ${{ steps.upload.outputs.url }}
