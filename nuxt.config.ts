@@ -18,6 +18,7 @@ export default defineNuxtConfig({
   },
 
   content: {
+    mode: 'server-only',
     v3Composables: false,
     build: {
       markdown: {
