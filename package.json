@@ -15,7 +15,7 @@
   "dependencies": {
     "@iconify-json/lucide": "^1.2.147",
     "@iconify-json/simple-icons": "^1.2.100",
-    "@nuxt/content": "https://pkg.pr.new/nuxt/content-v4-temp/@nuxt/content4@8a9dd9a",
+    "@nuxt/content": "https://pkg.pr.new/nuxt/content-v4-temp/@nuxt/content4@9476cb5",
     "@nuxt/fonts": "^1.1.0",
     "@nuxt/icon": "^2.5.1",
     "@nuxtjs/color-mode": "^4.0.1",
@@ -33,9 +33,6 @@
   },
   "packageManager": "pnpm@10.7.1",
   "pnpm": {
-    "overrides": {
-      "comark": "https://pkg.pr.new/comark@d6705ce"
-    },
     "onlyBuiltDependencies": [
       "@parcel/watcher",
       "better-sqlite3",
