@@ -27,7 +27,7 @@ useSeoMeta({
 
 <template>
   <NuxtLayout :name="page?.data.layout as LayoutKey || 'default'">
-    <ContentRenderer
+    <ContentDocument
       v-if="page"
       :value="page"
       class="prose"
