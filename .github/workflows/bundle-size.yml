@@ -13,7 +13,9 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NUXT_BUNDLE_ANALYZER_VERSION: 0.1.6
+  NUXT_BUNDLE_ANALYZER_VERSION: 0.2.0
+  # The pages `--urls` renders and measures, so the comparison shows what each one's HTML preloads.
+  NUXT_BUNDLE_ANALYZER_URLS: /,/about
 
 jobs:
   # Analyzes `main` and the PR side by side, compared and posted by `bundle-size-comment.yml`.
@@ -41,7 +43,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       # With npx, so the analyzer needs no entry in the lockfile.
       - name: Analyze the app
-        run: npx --yes "nuxt-bundle-analyzer@$NUXT_BUNDLE_ANALYZER_VERSION" --name ${{ matrix.target }} --no-serve
+        run: npx --yes "nuxt-bundle-analyzer@$NUXT_BUNDLE_ANALYZER_VERSION" --urls "$NUXT_BUNDLE_ANALYZER_URLS" --name ${{ matrix.target }} --no-serve
         env:
           NUXT_TELEMETRY_DISABLED: 1
       - uses: actions/upload-artifact@v7
