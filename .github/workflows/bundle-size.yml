@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NUXT_BUNDLE_ANALYZER_VERSION: 0.1.6
+  NUXT_BUNDLE_ANALYZER_VERSION: 0.2.0
 
 jobs:
   # Analyzes `main` and the PR side by side, compared and posted by `bundle-size-comment.yml`.

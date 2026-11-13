@@ -18,7 +18,7 @@ permissions:
   pull-requests: write
 
 env:
-  NUXT_BUNDLE_ANALYZER_VERSION: 0.1.6
+  NUXT_BUNDLE_ANALYZER_VERSION: 0.2.0
 
 jobs:
   comment:
