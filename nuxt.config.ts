@@ -18,6 +18,8 @@ export default defineNuxtConfig({
   },
 
   content: {
+    mode: 'server-only',
+    v3Composables: false,
     build: {
       markdown: {
         highlight: {
@@ -29,7 +31,6 @@ export default defineNuxtConfig({
         },
       },
     },
-    experimental: { sqliteConnector: 'native' },
   },
   future: {
     compatibilityVersion: 4,
